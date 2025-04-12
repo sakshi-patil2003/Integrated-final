@@ -1,0 +1,36 @@
+/* Apply Poppins globally */
+body, html {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply Baskervville specifically to the hero section */
+.mech-hero-wrapper {
+  font-family: "Baskervville", serif !important;
+}
+
+
+/* Additional CSS for animations, selection, etc. remains the same */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 0.8s step-end infinite; /* Faster blink */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville-regular-italic {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+}

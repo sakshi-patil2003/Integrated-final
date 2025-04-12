@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+body, .mech-hero-wrapper {
+  font-family: "Baskervville", serif;
+}
+
