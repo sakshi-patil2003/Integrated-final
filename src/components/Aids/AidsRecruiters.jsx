@@ -14,7 +14,7 @@ import logo11 from '../../../public/logos/gslab-min.avif';
 import logo12 from '../../../public/logos/infosys-min.avif'; 
 import logo13 from '../../../public/logos/kpit-min.avif'; 
 import logo14 from '../../../public/logos/kpmg-min.avif'; 
-import logo15 from '../../../public/logos/l&t-min.avif'; 
+import logo15 from '../../../public/logos/l&T-min.avif'; 
 import logo16 from '../../../public/logos/nttdata-min.avif'; 
 import logo17 from '../../../public/logos/palo-min.avif'; 
 import logo18 from '../../../public/logos/persistent-min.avif'; 
