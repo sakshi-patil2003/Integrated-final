@@ -50,7 +50,7 @@ const IntegratedBcaMcaOfferings = () => {
         style={{ backgroundImage: `url(${backgroundImage})` }} 
       ></div> */}
 
-      <h2 className="text-2xl md:text-4xl font-bold text-center  mb-4 text-[#555555]" data-aos="fade-up">
+      <h2 className="text-3xl md:text-4xl font-bold text-center  mb-4 text-[#555555]" data-aos="fade-up">
         ICEM <span className='text-[#f37021]'>Offerings</span>  
       </h2>
 
@@ -66,7 +66,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2 ">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2"> Programming Languages (C, C++, Java, Python)</h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2"> Programming Languages (C, C++, Java, Python)</h3>
             {/* <p className="text-base text-[#555555]">Write efficient, scalable code!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -82,7 +82,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Database Management System</h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Database Management System</h3>
             {/* <p className="text-base text-[#555555]">Train AI models for automation!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -98,7 +98,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Data Structures & Algorithms</h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Data Structures & Algorithms</h3>
             {/* <p className="text-base text-[#555555]">Build optimized software solutions!.Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -114,7 +114,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Web & Mobile App Development </h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Web & Mobile App Development </h3>
             {/* <p className="text-base text-[#555555]">Design user-friendly applications!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -130,7 +130,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Cloud Computing, AI, Machine Learning </h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Cloud Computing, AI, Machine Learning </h3>
             {/* <p className="text-base text-[#555555]">Work with AWS, Docker & Kubernetes!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -146,7 +146,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2"> Cybersecurity & Ethical Hacking </h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2"> Cybersecurity & Ethical Hacking </h3>
             {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -162,7 +162,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2">Industry Readiness Programme, Inter Personal Skills & Problem Solving </h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Industry Readiness Programme, Inter Personal Skills & Problem Solving </h3>
             {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
@@ -178,7 +178,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-bold text-[#555555] mb-2"> Hands on simulations and Real-world case studies </h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2"> Hands on simulations and Real-world case studies </h3>
             {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>

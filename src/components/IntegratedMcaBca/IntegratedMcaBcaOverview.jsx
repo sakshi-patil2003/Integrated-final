@@ -21,7 +21,7 @@ function IntegratedMcaBcaOverview() {
     <div className="flex flex-col bg-[#FCFAEE] md:flex-col lg:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-16 pt-4 md:pt-8 md:py-12 poppins-regular overflow-hidden">
       {/* Left Part: Heading and Paragraph */}
       <div className="flex-1 text-center md:text-left" data-aos="fade-right">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 mt-4 relative">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 md:mb-8 mt-4 relative">
           {/* Floating Hat Above the "P" */}
           <img
             src={HatImage}
@@ -30,7 +30,7 @@ function IntegratedMcaBcaOverview() {
           />
           Programme Overview
         </h2>
-        <p className="text-md sm:text-lg md:text-2xl text-[#555555] tracking-wide mt-4">
+        <p className="text-md sm:text-lg md:text-2xl text-[#555555] tracking-wide mt-2 md:mt-4">
         Our <b>Integrated BCA - MCA  </b>, program  affiliated with the University of Pune and approved by <b>AICTE</b>, 
         offers a perfect blend of theory and tech skills. With <b>modern computer labs, libraries, hostels, transportation,
          canteen, sports</b>, and regular <b>tech events</b> , students thrive in a vibrant, future-ready campus. Expert faculty and 
