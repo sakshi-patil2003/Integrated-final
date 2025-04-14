@@ -116,7 +116,7 @@
  
 // export default IntegratedBbaMbaStuddying;
 
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import {
   FaStar,
   FaBuilding,
@@ -130,7 +130,7 @@ import {
 } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import MyImage from '../../assets/images/Com-Images/Indira-BCA.jpg';
+import MyImage from '../../assets/images/Com-Images/Indira-BCA.avif';
  
  
 const highlights = [
@@ -189,7 +189,7 @@ const IntegratedBcaMcaStuddying = () => {
               Indira College of Engineering & Management offers a future-focused <b>5-year Integrated BCA-MCA course after 12th, </b>
               blending tech education with hands-on experience. The campus features <b>advanced computer labs</b>, modern <b>libraries</b>,
               digital <b>laboratories</b>, spacious <b>hostels</b>, reliable <b>transportation</b>, a hygienic <b>canteen</b>, and top-notch <b>sports</b> facilities.
-              With top tech <b>events</b>, expert mentorship, and an industry-aligned curriculum, it's one of the <b>best colleges for
+              With top tech <b>events</b>, expert mentorship, and an industry-aligned curriculum, it&apos;s one of the <b>best colleges for
               integrated BCA MCA.</b>
             </p>
 
