@@ -44,8 +44,9 @@ const IntegratedMcaBCaRecruiters = () => {
   return (
     <div className="logo-grid-section py-4 roboto-regular bg-[#FCFAEE] px-4 md:px-16 overflow-hidden">
       <div className="text-center mb-4">
-        <h2 className="text-3xl sm:text-3xl lg:text-4xl xl:text-4xl font-bold text-[#555555]">
-          TOP <span className="text-[#f37021]">Recruiters</span> AT ICEM
+        <h2 className="text-3xl  lg:text-4xl xl:text-4xl font-semibold text-[#555555]">
+          Top <span className="text-[#f37021]">Recruiters</span> At
+           ICEM
         </h2>
       </div>
       <div className="logo-grid w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6  gap-4 ">

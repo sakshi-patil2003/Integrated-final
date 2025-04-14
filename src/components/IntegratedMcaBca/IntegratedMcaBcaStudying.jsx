@@ -234,11 +234,10 @@ const IntegratedBcaMcaStuddying = () => {
         {/* Right Image */}
         <div className="w-full md:w-[40%] flex mt-12" data-aos="fade-left">
           <div className="w-full rounded-lg overflow-hidden">
-            <img
-              src={MyImage}
-              alt="Indira College"
-              className="w-full h-full object-cover object-left aspect-video sm:aspect-auto"
-            />
+          <img src={MyImage}
+          alt="Indira College"
+          className="w-full h-auto object-contain md:object-left sm:h-full sm:object-cover sm:aspect-auto"/>
+
           </div>
         </div>
       </div>

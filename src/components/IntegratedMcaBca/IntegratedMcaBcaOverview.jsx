@@ -18,7 +18,7 @@ function IntegratedMcaBcaOverview() {
   }, []);
  
   return (
-    <div className="flex flex-col bg-[#FCFAEE] md:flex-col lg:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8 px-4 sm:px-8 md:px-16 pt-8 md:py-12 poppins-regular overflow-hidden">
+    <div className="flex flex-col bg-[#FCFAEE] md:flex-col lg:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-8 px-4 md:px-16 pt-4 md:pt-8 md:py-12 poppins-regular overflow-hidden">
       {/* Left Part: Heading and Paragraph */}
       <div className="flex-1 text-center md:text-left" data-aos="fade-right">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 mt-4 relative">
@@ -26,7 +26,7 @@ function IntegratedMcaBcaOverview() {
           <img
             src={HatImage}
             alt="Hat"
-            className="absolute left-[-25px] top-[-30px] md:top-[-36px] w-16 h-16 animate-floating text-[#555555]" // Apply floating animation class
+            className="hidden md:block absolute left-[-40px] top-[-30px] md:top-[-36px] w-16 h-16 animate-floating text-[#555555]" // Apply floating animation class
           />
           Programme Overview
         </h2>
