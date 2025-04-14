@@ -18,7 +18,7 @@ function IntegratedMcaBcaFooter() {
 
   return (
     <div className="font-baskerville-regular">
-      <div className="bg-gray-100 px-8 md:px-16 text-black py-4 rounded-tl-4xl rounded-tr-4xl flex-grow">
+      <div className="bg-gray-100 px-8 md:px-16 text-black py-4  flex-grow">
         <div className="flex flex-col sm:flex-row justify-around">
           {/* Left Column */}
           <div className="flex flex-col sm:items-start  ">
@@ -32,7 +32,7 @@ function IntegratedMcaBcaFooter() {
               <div className="flex items-center space-x-2">
                 <i className="fas fa-map-marker-alt text-xl hover:text-blue-500"></i>
                 <div>
-                  <p>Indira Chanakya Campus (ICC)</p>
+                  <p>Indira College of Engineering & Management (ICEM)</p>
                   <p>S.No. 64,65, Gat No. 276 At Post: Parandwadi,</p>
                   <p>Near Somatne phata, Tal: Maval, Dist: Pune – 410 506</p>
                 </div>
