@@ -23,7 +23,7 @@ const IntegratedMcaBca = () => {
     <div>
     
         <IntegratedMcaBcaHero/>
-        {/* <IntegratedMcaBcaPlacement/> */}
+        <IntegratedMcaBcaPlacement/>
         <IntegratedMcaBcaRecruiters/>
         <IntegratedMcaBcaPointers/>
         <IntegratedMcaBcaOverview/>

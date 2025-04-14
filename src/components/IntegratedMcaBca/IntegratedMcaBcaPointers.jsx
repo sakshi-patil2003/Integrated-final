@@ -75,7 +75,7 @@ export default function IntegratedBbaMbaPointers() {
           </div>
 
           {/* Perfect circular badge */}
-          <div className="w-50 aspect-square ml-16 md:ml-10 rounded-full bg-[#f7f3ef] border-4 border-[#f37021] flex flex-col items-center justify-center shadow-lg">
+          <div className="w-30 md:w-50 aspect-square ml-20 md:ml-16 md:ml-10 rounded-full bg-[#f7f3ef] border-4 border-[#f37021] flex flex-col items-center justify-center shadow-lg">
             <FaAward className="text-[#f37021] text-3xl md:text-5xl mb-1" />
             <h1 className="text-[#555555] font-bold text-center text-sm md:text-xl leading-tight">
               <span className="text-[#f37021] font-bold">Highest CTC</span><br />
