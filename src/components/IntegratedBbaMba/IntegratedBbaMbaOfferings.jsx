@@ -49,7 +49,7 @@ const IntegratedBbaMbaOfferings = () => {
         Integrated <span className="text-[#f37021]">BBA/MBA </span>Offerings
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6">
         {[
           { img: offer1Image, title: 'Principles of Management & Marketing' },
           { img: offer2Image, title: 'Business Communication & Corporate Etiquette' },
