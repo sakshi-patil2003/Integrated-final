@@ -16,8 +16,6 @@ import IntegratedMcaBcaOverview from '../components/IntegratedMcaBca/IntegratedM
 import IntegratedMcaBcaApply from '../components/IntegratedMcaBca/IntegratedMcaBcaApply'
 import IntegratedMcaBcaFooter from '../components/IntegratedMcaBca/IntegratedMcaBcaFooter'
 
-
-
 const IntegratedMcaBca = () => {
   return (
     <div>

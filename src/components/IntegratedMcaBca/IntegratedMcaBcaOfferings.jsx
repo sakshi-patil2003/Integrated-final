@@ -2,14 +2,14 @@ import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import AOS from 'aos';  // Import AOS
 import 'aos/dist/aos.css';  // Import AOS CSS
-import offer1Image from '../../assets/images/Com-Images/programming_lang.jpg';  // Import the CAD/CAM image
-import offer2Image from '../../assets/images/Com-Images/dbms.png';  // Import the robotics image
-import offer3Image from '../../assets/images/Com-Images/dsa.jpg';  // Import the thermal engineering image
-import offer4Image from '../../assets/images/Com-Images/app_devlopment.png';  // Import the energy solutions image
-import offer5Image from '../../assets/images/Com-Images/cloud_computing.png';  // Import the prototyping image
-import offer6Image from '../../assets/images/Com-Images/cyber_security.jpg';  // Import the blockchain image
-import offer7Image from '../../assets/images/Com-Images/Hands_on_simulation.jpg';
-import offer8Image from '../../assets/images/Com-Images/placement_readiness.png';
+import offer1Image from '../../assets/images/Com-Images/programming_lang.avif';  // Import the CAD/CAM image
+import offer2Image from '../../assets/images/Com-Images/dbms.avif';  // Import the robotics image
+import offer3Image from '../../assets/images/Com-Images/dsa.avif';  // Import the thermal engineering image
+import offer4Image from '../../assets/images/Com-Images/app_devlopment.avif';  // Import the energy solutions image
+import offer5Image from '../../assets/images/Com-Images/cloud_computing.avif';  // Import the prototyping image
+import offer6Image from '../../assets/images/Com-Images/cyber_security.avif';  // Import the blockchain image
+import offer7Image from '../../assets/images/Com-Images/Hands_on_simulation.avif';
+import offer8Image from '../../assets/images/Com-Images/placement_readiness.avif';
 
 // Import the background image
 import backgroundImage from '../../assets/images/Com-Images/broImage.jpg'; // replace with the actual path to your image
