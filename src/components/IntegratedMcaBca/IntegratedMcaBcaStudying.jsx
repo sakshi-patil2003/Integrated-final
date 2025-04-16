@@ -1,4 +1,10 @@
+
 import React, { useEffect } from 'react';
+
+
+
+
+
 import {
   FaStar,
   FaBuilding,
@@ -65,6 +71,7 @@ const IntegratedBcaMcaStuddying = () => {
             With top tech <b>events</b>, expert mentorship, and an industry-aligned curriculum, it's one of the <b>best colleges for
             integrated BCA MCA.</b>
           </p>
+
 
           {/* Grid Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">

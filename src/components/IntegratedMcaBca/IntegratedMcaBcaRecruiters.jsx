@@ -1,4 +1,4 @@
-import React from 'react';
+import 'react';
  
 import logo1 from '../../../public/logos/capgi-min.avif';
 import logo2 from  '../../../public/logos/sas-min.avif';
