@@ -1,4 +1,4 @@
-import "react";
+import React from "react";
 
 // Import profile images
 import TanayDhote from "../../../public/BBA-MBA/tanay.avif";
@@ -14,36 +14,42 @@ const profiles = [
     name: "Mr.Tanay Dhote",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 32 LPA",
+    company: "Landmark Group",
     image: TanayDhote,
   },
   {
     name: "Mr.Aditya Kale",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 12 LPA",
+    company: "Kohler",
     image: Aditya_Kale,
   },
   {
     name: "Mr.Aditya Pawar",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 11 LPA",
+    company: "Juspay",
     image: Aditya,
   },
   {
     name: "Mr.Utkarsh Wagh",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 10 LPA",
+    company: "Patterns Technology",
     image: Utkarsh,
   },
   {
     name: "Ms.Sakshi Ghute",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 10 LPA",
+    company: "Bank Of New York Mellon",
     image: sakshi,
   },
   {
     name: "Mr.Nilesh Godse",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 10 LPA",
+    company: "Bank Of New York Mellon",
     image: nilesh,
   },
 ];
@@ -73,11 +79,16 @@ function IntegratedBbaMbaPlacement() {
             </div>
             <div className="text-xs sm:text-sm text-gray-600">{profile.batch}</div>
 
+            {/* Company Name */}
+            <div className="text-xs sm:text-sm text-[#f37021] font-bold">
+              {profile.company}
+            </div>
+
             {/* CTC Tag */}
             <div className="bg-gradient-to-l from-[#DC8620] via-[#FDD951] to-[#DC8620] px-3 py-1 rounded-full text-black font-bold text-xs sm:text-sm md:text-base lg:text-lg flex items-center justify-center gap-1">
               <span className="font-medium">CTC</span>
               <span className="text-lg sm:text-xl md:text-2xl">
-                {profile.ctc.match(/\d+(\.\d+)?/)} {/* Extracting number like 10.5 */}
+                {profile.ctc.match(/\d+(\.\d+)?/)}
               </span>
               <span className="font-medium">LPA</span>
             </div>

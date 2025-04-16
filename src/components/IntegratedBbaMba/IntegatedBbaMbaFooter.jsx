@@ -34,7 +34,7 @@ function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-phone-alt text-lg text-green-600" />
-                <p>91+ 7720010705 / 06</p>
+                <p>91+ 7020512131</p>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-envelope text-lg text-gray-500" />
@@ -54,19 +54,19 @@ function Footer() {
             </div>
 
             <div className="flex gap-4 text-lg mt-4">
-              <a href="https://facebook.com" className="hover:text-blue-600">
+              <a href="https://www.facebook.com/ICEM.AVIRAT" className="hover:text-blue-600">
                 <i className="fab fa-facebook-f" />
               </a>
-              <a href="https://instagram.com" className="hover:text-pink-600">
+              <a href="https://www.instagram.com/icem_pune/#" className="hover:text-pink-600">
                 <i className="fab fa-instagram" />
               </a>
-              <a href="https://linkedin.com" className="hover:text-blue-700">
+              <a href="https://www.linkedin.com/company/indira-college-of-engineering-and-management-pune/about/" className="hover:text-blue-700">
                 <i className="fab fa-linkedin-in" />
               </a>
-              <a href="https://twitter.com" className="hover:text-blue-400">
+              <a href="https://x.com/igipune" className="hover:text-blue-400">
                 <i className="fab fa-twitter" />
               </a>
-              <a href="https://youtube.com" className="hover:text-red-600">
+              <a href="https://www.youtube.com/@indirauniversitypune" className="hover:text-red-600">
                 <i className="fab fa-youtube" />
               </a>
             </div>

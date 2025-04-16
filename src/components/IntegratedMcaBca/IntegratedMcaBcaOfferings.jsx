@@ -149,7 +149,7 @@ const IntegratedBcaMcaOfferings = () => {
             className="w-full h-48 object-cover mb-4"
           />
           <div className="text-center px-4 p-2">
-            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Industry Readiness Programme, Inter Personal Skills & Problem Solving </h3>
+            <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Industry Readiness Programme-Interpersonal Skills & Problem Solving </h3>
           </div>
         </div>
 
