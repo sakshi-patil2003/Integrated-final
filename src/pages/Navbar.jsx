@@ -1,8 +1,8 @@
 import React from 'react';
 
 // Import images
-import logo from '../../src/assets/images/logos/ICEM Final LOGO.png';
-import autonomousLogo from '../../src/assets/images/ICEM-Autonomous-logo.png';
+import logo from '../../src/assets/images/logos/indiralogo.avif';
+import autonomousLogo from '../../src/assets/images/logos/autonomous.avif';
 
 function Navbar() {
   return (

@@ -12,7 +12,7 @@ const MechApply = () => {
 
   return (
     <div
-      className="bg-[#01224F] py-10 px-8 md:px-16 text-center text-white mb-12 shadow-lg relative bg-contain bg-no-repeat bg-center"
+      className="bg-[#01224F] py-10 px-8 md:px-16 text-center text-white  shadow-lg relative bg-contain bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Light gray overlay */}

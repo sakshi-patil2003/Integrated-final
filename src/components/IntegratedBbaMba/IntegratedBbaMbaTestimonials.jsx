@@ -1,11 +1,10 @@
-import React from "react";
-import ankitImage from "/public/BBA-MBA/Ankit_Jain.avif";
-import misbahImage from "/public/BBA-MBA/Misbah_Aryan.avif";
-import akankshaImage from "/public/BBA-MBA/Akanksha_Jain.avif";
-import tanishaImage from "/public/BBA-MBA/Tanisha_B.avif";
-import salilImage from "/public/BBA-MBA/Salil_Deshpande.avif";
-import krishnaImage from "/public/BBA-MBA/Krishna-prajapat.avif";
-import giteshImage from "/public/BBA-MBA/Gitesh-Agarwal.avif";
+import ankitImage from "../../assets/images/bca/Ankit_Jain.avif";
+import misbahImage from "../../assets/images/bca/Misbah_Aryan.avif";
+import akankshaImage from "../../assets/images/bca/Akanksha_Jain.avif";
+import tanishaImage from "../../assets/images/bca/Tanisha_B.avif";
+import salilImage from "../../assets/images/bca/Salil_Deshpande.avif";
+import krishnaImage from "../../assets/images/bca/Krishna-prajapat.avif";
+import giteshImage from "../../assets/images/bca/Gitesh-Agarwal.avif";
 
 const testimonials = [
   {
@@ -59,10 +58,10 @@ export default function AlumniInfiniteScroll() {
           {extended.map((t, index) => (
             <div
               key={index}
-              className="flex-shrink-0 px-4"
+              className="flex-shrink-0 px-2 md:px-4"
               style={{
-                width: "27.2222vw", // 3 cards visible always
-                maxWidth: "27.2222vw",
+                width: "80vw", // mobile view - 1 card
+                maxWidth: "80vw",
               }}
             >
               <div className="bg-white border border-[#f37021] rounded-2xl shadow-md p-6 h-full flex flex-col items-center text-center">
@@ -74,7 +73,6 @@ export default function AlumniInfiniteScroll() {
                 <p className="text-[#f37021] font-semibold text-sm">
                   {t.name}
                 </p>
-                <p className="text-xs text-gray-600 mb-4">{t.designation}</p>
                 <p className="text-sm text-gray-800">{t.text}</p>
               </div>
             </div>
@@ -83,6 +81,13 @@ export default function AlumniInfiniteScroll() {
       </div>
 
       <style>{`
+        @media (min-width: 768px) {
+          .animate-scroll-track > div {
+            width: 27.2222vw !important;
+            max-width: 27.2222vw !important;
+          }
+        }
+
         @keyframes scroll {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }

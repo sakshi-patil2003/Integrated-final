@@ -21,13 +21,16 @@ function Entc() {
         <EntcPlacement/>
         <EntcRecruiters/>
         <EntcAdmission/> 
-        <EntcPointers />  
         <EntcInovation/>
+        <EntcReasons/>
+        <EntcOfferings />
+        <EntcBrochure />
+        <EntcPointers />  
         <EntcStudying />
         {/* <EntcOverview/> */}
-        <EntcReasons/>
-        <EntcOfferings /> 
-        <EntcBrochure />
+        
+         
+        
         {/* <EntcHighlights/> */}
         <EntcTestimonials />
         <EntcApply />

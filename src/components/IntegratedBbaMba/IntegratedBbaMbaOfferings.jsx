@@ -2,15 +2,16 @@ import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import offer1Image from '../../../public/BBA-MBA/principle.avif';
+import offer2Image from '../../../public/BBA-MBA/image (1).avif';
+import offer3Image from '../../../public/BBA-MBA/Dm.avif';
+import offer4Image from '../../../public/BBA-MBA/anyalisis.avif';
+import offer5Image from '../../../public/BBA-MBA/behavior.avif';
+import offer6Image from '../../../public/BBA-MBA/global.avif';
+import offer7Image from '../../../public/BBA-MBA/internship.avif';
+import offer8Image from '../../../public/BBA-MBA/apti.avif';
 
-import offer1Image from '/public/BBA-MBA/principle.jpg';
-import offer2Image from '/public/BBA-MBA/image (1).jpg';
-import offer3Image from '/public/BBA-MBA/Dm.jpg';
-import offer4Image from '/public/BBA-MBA/anyalisis.jpg';
-import offer5Image from '/public/BBA-MBA/behavior.jpg';
-import offer6Image from '/public/BBA-MBA/global.jpg';
-import offer7Image from '/public/BBA-MBA/internship.jpg';
-import offer8Image from '/public/BBA-MBA/apti.jpg';
+
 
 const IntegratedBbaMbaOfferings = () => {
   useEffect(() => {
@@ -49,7 +50,7 @@ const IntegratedBbaMbaOfferings = () => {
         Integrated <span className="text-[#f37021]">BBA/MBA </span>Offerings
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-6">
         {[
           { img: offer1Image, title: 'Principles of Management & Marketing' },
           { img: offer2Image, title: 'Business Communication & Corporate Etiquette' },

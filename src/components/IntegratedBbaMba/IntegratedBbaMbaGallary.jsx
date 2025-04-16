@@ -32,7 +32,7 @@ const images = [
 const LifeAtICEM = () => {
   return (
     <div className="w-full bg-[#FCFAEE] px-4 md:px-16">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl text-[#222] font-bold text-center pt-8 pb-4">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl text-[#222] font-bold text-center pb-4">
         Life At <span className="text-[#f37021]">ICEM</span>
       </h1>
 

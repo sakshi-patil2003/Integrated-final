@@ -2,10 +2,10 @@ import React from "react";
 import { FaAward } from "react-icons/fa";
 
 // Import your custom icons
-import offlineIcon from '../../assets/images/bca/logo2.png';
-import durationIcon from '../../assets/images/bca/logo1.png';
-import feesIcon from '../../assets/images/bca/logo3.png';
-import recruitersIcon from '../../assets/images/bca/logo4.png';
+import offlineIcon from '../../assets/images/bca/logo4.avif';
+import durationIcon from '../../assets/images/bca/logo1.avif';
+import feesIcon from '../../assets/images/bca/logo2.avif';
+import recruitersIcon from '../../assets/images/bca/logo3.avif';
 
 const data = [
   {

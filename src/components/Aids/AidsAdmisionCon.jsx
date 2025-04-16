@@ -14,7 +14,7 @@ function AidsAdmisionCon() {
         Engineering Admissions 2025 are now open!
       </h2>
       <p className="text-lg text-gray-200 mb-8">
-        Step into the future with <span className="text-[#41b9d0] font-semibold">ICEM’s AIDS Engineering</span> program and become a tech innovator!
+        Step into the future with <span className="text-[#41b9d0] font-semibold">ICEM’s AI-DS Engineering</span> programme and become a tech innovator!
       </p>
       <a
         href="#apply"

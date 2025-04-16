@@ -11,7 +11,7 @@ const ItBanner = () => {
         
         {/* Subheading */}
         <p className="text-lg sm:text-2xl font-semibold mb-8 animate__animated animate__fadeIn animate__delay-2s">
-          Your search ends at ICEM!
+          Your search ends at <span className='text-[#390161] font-bold'> ICEM!</span>
         </p>
         
         {/* Call-to-Action Button */}

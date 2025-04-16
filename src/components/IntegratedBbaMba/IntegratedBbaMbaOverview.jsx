@@ -34,7 +34,7 @@ function IntegratedBbaMbaOverview() {
             </span>
           </h2>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl text-[#555555] font-medium tracking-wide leading-relaxed">
-            Our <strong>Integrated BBA MBA program</strong>, affiliated with the University of Pune and approved by <strong>AICTE</strong>, is a direct pathway into the world of business and management.
+            Our <strong>Integrated BBA MBA programme</strong>, affiliated with the University of Pune and approved by <strong>AICTE</strong>, is a direct pathway into the world of business and management.
             Nestled in a lush green campus with <strong>state-of-the-art infrastructure</strong>, the department offers one of the best 5-year Integrated BBA-MBA courses.
             With expert faculty, real-world case studies, and an <strong>industry-aligned curriculum</strong>, students gain a strong foundation in business and leadership.
           </p>

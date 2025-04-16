@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLaptop, FaCode, FaChalkboardTeacher, FaBriefcase, FaGlobe, FaTrophy, FaDesktop } from "react-icons/fa";
+
 import img1 from '../../assets/images/Com-Images/7.png';
 import img2 from '../../assets/images/Com-Images/6.png';
 import img3 from '../../assets/images/Com-Images/5.png';
@@ -26,7 +26,7 @@ function ComReasons() {
         <img src={img2} alt="" className="object-cover w-50 h-50" />
       </div>
 
-      <h2 className="text-3xl md:text-4xl lg:text-4xl font-bold text-center mb-6 z-10 relative">
+      <h2 className="text-3xl md:text-4xl text-[#134C93] lg:text-4xl font-bold text-center mb-6 z-10 relative">
         Why Choose ICEM for Your Computer Engineering Journey?
       </h2>
 
@@ -38,7 +38,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img4} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161] ">Industry-Integrated Curriculum</h3>
+          <h3 className="text-xl font-semibold text-[#134C93] ">Industry-Integrated Curriculum</h3>
           <p className="text-sm md:text-base text-gray-700">Learn trending tech like AI, Cloud, & DevOps!</p>
         </div>
 
@@ -47,7 +47,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img5} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">Live Projects & Internships</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">Live Projects & Internships</h3>
           <p className="text-sm md:text-base text-gray-700">Gain hands-on experience with real-world projects!</p>
         </div>
 
@@ -56,7 +56,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF] ">
             <img src={img6} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">Expert Faculty & Industry Mentors</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">Expert Faculty & Industry Mentors</h3>
           <p className="text-sm md:text-base text-gray-700">Learn from top professionals in the field!</p>
         </div>
 
@@ -65,7 +65,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img7} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">Top Placements</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">Top Placements</h3>
           <p className="text-sm md:text-base text-gray-700">Get hired by leading tech giants & startups!</p>
         </div>
 
@@ -74,7 +74,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img9} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">Global Career Prospects</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">Global Career Prospects</h3>
           <p className="text-sm md:text-base text-gray-700">Opportunities in MNCs across the world!</p>
         </div>
 
@@ -83,7 +83,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img10} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">Hackathons & Coding Competitions</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">Hackathons & Coding Competitions</h3>
           <p className="text-sm md:text-base text-gray-700">Compete, innovate & build solutions!</p>
         </div>
 
@@ -92,7 +92,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img11} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">State-of-the-Art Labs</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">State-of-the-Art Labs</h3>
           <p className="text-sm md:text-base text-gray-700">Work in high-tech IT & Apple labs!</p>
         </div>
 
@@ -101,7 +101,7 @@ function ComReasons() {
           <div className="text-[#8BC5FF]">
             <img src={img8} alt="" className="w-20 h-20 object-contain" />
           </div>
-          <h3 className="text-xl font-semibold text-[#390161]">Exciting Campus Life</h3>
+          <h3 className="text-xl font-semibold text-[#134C93]">Exciting Campus Life</h3>
           <p className="text-sm md:text-base text-gray-700">Sports, events & tech fests to fuel your passion!</p>
         </div>
       </div>

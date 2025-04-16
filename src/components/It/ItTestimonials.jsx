@@ -109,17 +109,17 @@ const Testimonials = () => {
         {groupedTestimonials.slice(activeIndex, activeIndex + 1).map((testimonial, idx) => (
           <div
             key={idx}
-            className=" p-4 sm:p-6 md:p-8 rounded-2xl border shadow-md mx-auto flex flex-col sm:flex-row items-center sm:items-start"
+            className=" p-4 sm:p-6 md:p-8 rounded-2xl border shadow-md mx-auto flex flex-col sm:flex-row items-center sm:items-start  bg-[#f3e6fc]"
             style={{ minHeight: maxHeight || "auto", borderColor: "#390161" }}
           >
-            <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-6">
+            <div className="flex-shrink-0 mb-4 sm:mb-0 sm:mr-6 ">
               <img
                 src={testimonial.image}
                 alt={testimonial.name}
                 className="w-16 sm:w-20 h-16 sm:h-20 rounded-full object-cover"
               />
             </div>
-            <div className="flex flex-col justify-between text-center sm:text-left">
+            <div className="flex flex-col justify-between text-center sm:text-left ">
               <p className="text-sm sm:text-base text-black leading-relaxed">
                 {testimonial.text}
               </p>

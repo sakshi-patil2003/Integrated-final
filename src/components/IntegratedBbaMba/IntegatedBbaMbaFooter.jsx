@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from "../../assets/images/Icem-footer-logo.png";
+import logo from '../../assets/images/logos/indirafooter.avif';
 
 function Footer() {
   useEffect(() => {
@@ -27,7 +27,7 @@ function Footer() {
               <div className="flex items-start gap-2">
                 <i className="fas fa-map-marker-alt text-lg text-[#023b5e]" />
                 <div>
-                  <p>Indira Chanakya Campus (ICC)</p>
+                  <p>Indira College of Engineering & Management (ICEM)</p>
                   <p>S.No. 64,65, Gat No. 276 At Post : Parandwadi,</p>
                   <p>Near Somatne phata, Tal. : Maval, Dist. Pune – 410 506</p>
                 </div>
@@ -107,3 +107,4 @@ function Footer() {
 }
 
 export default Footer;
+

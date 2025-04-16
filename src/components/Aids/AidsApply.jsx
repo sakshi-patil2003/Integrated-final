@@ -24,8 +24,8 @@ const AidsApply = () => {
           Admission Process: Get Started Today!
         </h2>
         <p className="text-lg mb-6">
-          Follow these simple steps to apply for the AIDS Engineering
-          program at ICEM College Pune
+          Follow these simple steps to apply for the AI-DS Engineering
+          programme at ICEM College Pune
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mx-auto">

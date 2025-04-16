@@ -38,8 +38,8 @@ const EntcRecruiters = () => {
   return (
     <div className="logo-slider-section py-4 font-poppins">
       <div className="text-center mb-4">
-        <h2 className="text-2xl text-[#36A5B9] sm:text-3xl lg:text-4xl font-bold">
-          Our Recruiters
+        <h2 className="text-2xl  sm:text-3xl lg:text-4xl font-bold">
+          Top Recruiters
         </h2>
       </div>
       <div className="logo-slider relative overflow-hidden w-full">

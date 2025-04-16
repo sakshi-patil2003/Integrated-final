@@ -14,10 +14,12 @@ import IntegrateMesureRecruters from '../components/IntegratedBbaMba/IntegratedM
 import IntegratedBbaMbaGallary from '../components/IntegratedBbaMba/IntegratedBbaMbaGallary'
 import IntegratedBbaMbaFooter from '../components/IntegratedBbaMba/IntegatedBbaMbaFooter'
 import IntegratedBbaMbaPointers from '../components/IntegratedBbaMba/IntegratedBbaMbaPointers'
+import IntegratedBbaMbaPlacement from '../components/IntegratedBbaMba/IntegratedBbaMbaPlacement'
 const IntegratedBbaMba  = () => {
   return (
     <div>
       <IntegratedBbaMbaHero/>
+      <IntegratedBbaMbaPlacement/>
       <IntegratedBbaMbaRecruters/>
       <IntegratedBbaMbaOverview/> 
       <IntegratedBbaMbaPointers/> 

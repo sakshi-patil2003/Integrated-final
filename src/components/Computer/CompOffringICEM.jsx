@@ -48,7 +48,7 @@ const CompOffringICEM = () => {
         style={{ backgroundImage: `url(${backgroundImage})` }} 
       ></div>
 
-      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#000]" data-aos="fade-up">
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#134C93]" data-aos="fade-up">
         Computer Engineering Offerings  
       </h2>
 

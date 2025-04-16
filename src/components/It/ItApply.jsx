@@ -4,7 +4,7 @@ import backgroundImage from "../../assets/images/plane.avif"; // Ensure the path
 const ItApply = () => {
   return (
     <div
-      className="bg-[#ffffff] py-10 px-8 md:px-16 text-center text-white mb-12 shadow-lg relative bg-contain bg-no-repeat bg-center"
+      className="bg-[#ffffff] py-10 px-8 md:px-16 text-center text-white  shadow-lg relative bg-contain bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       {/* Light gray overlay */}

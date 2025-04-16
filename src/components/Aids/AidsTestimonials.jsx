@@ -180,7 +180,7 @@ const Testimonials = () => {
       <div className="flex flex-col md:flex-row space-x-8 w-full max-w-[1200px] overflow-x-hidden py-2 md:py-4 justify-center transition-all duration-500 ease-in-out px-4 md:px-8">
         {groupedTestimonials[activeDot] && (
           <div
-            className="bg-[#F5F0EB] p-6 rounded-lg flex flex-col sm:flex-row w-full max-w-[800px] md:mx-4 flex-shrink-0 transition-all duration-300 ease-in-out border"
+            className="bg-[#f7fcfc] p-6 rounded-lg flex flex-col sm:flex-row w-full max-w-[800px] md:mx-4 flex-shrink-0 transition-all duration-300 ease-in-out border"
             style={{
               // boxShadow: "0 2px 4px rgba(0, 60, 132, 0.4)",
               borderColor: "#1e858f", // Primary color for border

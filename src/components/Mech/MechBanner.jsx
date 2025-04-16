@@ -11,12 +11,12 @@ const CompBanner = () => {
       <div className="mx-auto text-center">
         {/* Banner Heading */}
         <h1 className="text-2xl md:text-3xl font-extrabold mb-4 animate__animated animate__fadeIn animate__delay-1s">
-          Looking for the Best Computer Engineering College in Pune?
+          Looking for the Best Mechanical Engineering College in Pune?
         </h1>
         
         {/* Subheading */}
         <p className="text-lg sm:text-xl font-semibold mb-2 md:mb-8 animate__animated animate__fadeIn animate__delay-2s">
-          Your search ends at ICEM!
+          Your search ends at <span className='text-[#062652] font-bold'>ICEM!</span>
         </p>
         
         {/* Button to Learn More */}

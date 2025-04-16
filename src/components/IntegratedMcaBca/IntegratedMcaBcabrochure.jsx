@@ -1,13 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import backgroundImage from '../../assets/images/Com-Images/broImage.jpg';
 
 function IntegratedMcaBcaBrochure() {
   return (
     <div
       className="flex justify-between items-center bg-contain bg-center text-white shadow-lg h-48 px-8 md:px-16 poppins-regular bg-[#FCFAEE] overflow-hidden"
-      // style={{ backgroundImage: `url(${backgroundImage})` }}
+    
     >
       <div className="w-full bg-[#F5F0EB] p-6 rounded-3xl flex flex-col md:flex-row justify-between items-center">
         <div className="max-w-full md:max-w-2/3 mb-4 md:mb-0">
