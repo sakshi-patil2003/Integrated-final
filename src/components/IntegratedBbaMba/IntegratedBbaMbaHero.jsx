@@ -39,7 +39,7 @@ function BcaHero() {
         </p>
         {/* 🔤 Main Heading */}
         <h2 className="text-3xl md:text-2xl lg:text-5xl font-bold leading-tight">
-          Pune’s top <br/> Management <br/> Education <br/> Group <br/> Indira Group <br/> of  Institutes
+          Pune’s top <br/> Management <br/> Education <br/> Group (IGI)
         </h2>
 
         {/* 📍Subtext */}

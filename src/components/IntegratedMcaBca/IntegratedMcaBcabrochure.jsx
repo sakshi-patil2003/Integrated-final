@@ -17,7 +17,7 @@ function IntegratedMcaBcaBrochure() {
         <div>
   {/* Anchor tag to trigger file download */}
   <a
-    href="#"
+    // href="#"
     // download="Brochure.pdf"
     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
     className="border border-[#FCFAEE] text-[#555555] px-6 py-3 border-[#f37021] rounded-3xl hover:bg-white transition duration-300 flex items-center space-x-2"

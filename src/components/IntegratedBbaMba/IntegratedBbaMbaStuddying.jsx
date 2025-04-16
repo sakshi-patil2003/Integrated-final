@@ -104,7 +104,7 @@ const IntegratedBcaMcaStuddying = () => {
 
       {/* Highlights Section */}
       <div className="flex flex-col justify-center">
-        <h1 className="text-2xl sm:text-3xl font-bold text-[#f37021] text-center mb-2">Highlights</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-[#f37021] text-center mb-2">ICEM Highlights</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-4">
           {highlights.map((item, index) => (
             <div

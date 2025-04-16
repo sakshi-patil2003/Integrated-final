@@ -18,8 +18,8 @@ function IntegratedBbaMbaBrochure() {
         </div>
         <div>
           <a
-            href="/path/to/your/dummy/brochure.pdf"
-            download="Brochure.pdf"
+            // href="/path/to/your/dummy/brochure.pdf"
+            // download="Brochure.pdf"
             onClick={handleDownloadClick}
             className="bg-[#FCFAEE] border-2 border-[#f37021] text-[#f37021] px-6 py-3 rounded-3xl hover:bg-[#555555] hover:text-[#F7F0FC] hover:border-[#555555] transition duration-300 flex items-center space-x-2"
           >
