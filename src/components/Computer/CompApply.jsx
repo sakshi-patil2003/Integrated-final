@@ -22,7 +22,7 @@ const AdmissionProcess = () => {
         <h2 className="text-3xl font-semibold mb-6">Admission Process: Get Started Today! </h2>
         <p className="text-lg mb-6">
           Follow these simple steps to apply for the Computer Engineering
-          program at ICEM College Pune:
+          programme at ICEM College Pune:
         </p>
 
         {/* Container for steps */}
@@ -109,8 +109,8 @@ const AdmissionProcess = () => {
             Secure your seat & start your journey in the world of technology with ICEM!
           </p>
           <button
-            onClick={scrollToTop} // On click scroll to top
-            className="bg-transparent border-2 text-[#ffffff] py-2 px-6 rounded-full text-xl hover:bg-blue-700 hover:text-white transition-all"
+            onClick={scrollToTop} // Call scrollToTop when the button is clicked
+            className="bg-[#F7F0FC] text-[#161e3a] font-bold py-3 px-8 rounded-full shadow-lg hover:bg-[#2241ac] hover:text-[#F7F0FC] transition-all duration-300 ease-in-out"
           >
             Apply Now
           </button>

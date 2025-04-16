@@ -12,7 +12,7 @@ import {
 } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import MyImage from '../../assets/images/Com-Images/Indira-BCA.jpg';
+import MyImage from '../../assets/images/Com-Images/Indira-BCA.avif';
  
  
 const highlights = [

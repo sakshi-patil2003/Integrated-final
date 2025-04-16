@@ -6,7 +6,7 @@ import gearImage from '../../assets/images/tech-dots.avif'; // Background image
 function AidsBrochure() {
   // **Desktop View (unchanged)**
   const renderDesktopView = () => (
-    <div className="w-full bg-[#0c3249] p-6 rounded-3xl flex justify-between items-center mt-4  ">
+    <div className="w-full bg-[#0c3249] p-8 rounded-3xl flex justify-between items-center mt-4  ">
       <div className="max-w-2/3 ">
         <div className="flex items-center space-x-2">
           <FontAwesomeIcon icon={faRobot} className="text-3xl text-[#41b9d0]" />

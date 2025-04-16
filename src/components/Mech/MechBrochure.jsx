@@ -6,7 +6,7 @@ import gearImage from '../../assets/images/gears.png'; // Import the gear image
 function CompBrochure() {
   return (
     <div
-      className="flex justify-between items-center bg-[#FFF8F0] text-white shadow-lg h-auto px-8 md:px-16 py-0 md:py-0 poppins-regular relative"
+      className="flex justify-between items-center bg-[#FFF8F0] text-white shadow-lg h-auto px-8 md:px-16 py-2 md:py-4 poppins-regular relative"
       style={{
         backgroundImage: `url(${gearImage}), url(${gearImage})`, // Use two instances of the same image
         backgroundPosition: 'left bottom, right top', // Position first at left bottom, second at right top

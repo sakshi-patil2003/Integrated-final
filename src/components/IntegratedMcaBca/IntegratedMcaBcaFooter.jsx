@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import logo from '../../assets/images/Icem-footer-logo.png';
+import logo from '../../../src/assets/images/logos/indirafooter.avif';
 
 function IntegratedMcaBcaFooter() {
   useEffect(() => {

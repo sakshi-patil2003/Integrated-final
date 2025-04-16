@@ -24,12 +24,12 @@ import logo21 from '../../../public/logos/Tcs-min.avif';
 import logo22 from '../../../public/logos/tibco-min.avif'; 
 import logo23 from '../../../public/logos/wipro-min.avif'; 
 import logo24 from '../../../public/logos/dataaxle-min.avif';
-import logo25 from '../../../public/logos/thermax.png'; 
-import logo26 from '../../../public/logos/mastercard.png'; 
-import logo27 from '../../../public/logos/nutanix.png'; 
-import logo28 from '../../../public/logos/prgx.png'; 
-import logo29 from '../../../public/logos/schlumberger.png'; 
-import logo30 from '../../../public/logos/tetrapak.png'; 
+import logo25 from '../../../public/logos/thermax.avif'; 
+import logo26 from '../../../public/logos/mastercard.avif'; 
+import logo27 from '../../../public/logos/nutanix.avif'; 
+import logo28 from '../../../public/logos/prgx.avif'; 
+import logo29 from '../../../public/logos/schlumberger.avif'; 
+import logo30 from '../../../public/logos/tetrapak.avif'; 
 
 const IntegratedMcaBcaMajorRecruiters = () => {
   const [reverse, setReverse] = useState(false);

@@ -18,7 +18,7 @@ function Footer() {
 
   return (
     <div className="font-baskerville-regular">
-      <div className="bg-gray-100 px-8 md:px-16 text-black py-8 rounded-tl-4xl rounded-tr-4xl flex-grow">
+      <div className="bg-gray-100 px-8 md:px-16 text-black py-8  flex-grow">
         <div className="flex flex-col sm:flex-row justify-around">
           {/* Left Column */}
           <div className="flex flex-col sm:items-start mb-6 sm:mb-0">

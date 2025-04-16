@@ -2,17 +2,15 @@ import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import AOS from 'aos';  // Import AOS
 import 'aos/dist/aos.css';  // Import AOS CSS
-import offer1Image from '../../assets/images/Com-Images/programming_lang.jpg';  // Import the CAD/CAM image
-import offer2Image from '../../assets/images/Com-Images/dbms.png';  // Import the robotics image
-import offer3Image from '../../assets/images/Com-Images/dsa.jpg';  // Import the thermal engineering image
-import offer4Image from '../../assets/images/Com-Images/app_devlopment.png';  // Import the energy solutions image
-import offer5Image from '../../assets/images/Com-Images/cloud_computing.png';  // Import the prototyping image
-import offer6Image from '../../assets/images/Com-Images/cyber_security.jpg';  // Import the blockchain image
-import offer7Image from '../../assets/images/Com-Images/Hands_on_simulation.jpg';
-import offer8Image from '../../assets/images/Com-Images/placement_readiness.png';
+import offer1Image from '../../assets/images/Com-Images/programming_lang.avif';  
+import offer2Image from '../../assets/images/Com-Images/dbms.avif';  
+import offer3Image from '../../assets/images/Com-Images/dsa.avif';  
+import offer4Image from '../../assets/images/Com-Images/app_devlopment.avif';  
+import offer5Image from '../../assets/images/Com-Images/cloud_computing.avif'; 
+import offer6Image from '../../assets/images/Com-Images/cyber_security.avif'; 
+import offer7Image from '../../assets/images/Com-Images/Hands_on_simulation.avif';
+import offer8Image from '../../assets/images/Com-Images/placement_readiness.avif';
 
-// Import the background image
-import backgroundImage from '../../assets/images/Com-Images/broImage.jpg'; // replace with the actual path to your image
 
 const IntegratedBcaMcaOfferings = () => {
   useEffect(() => {
@@ -44,12 +42,6 @@ const IntegratedBcaMcaOfferings = () => {
 
   return (
     <div className="relative px-4 md:px-8 lg:px-16 py-6 md:py-8 poppins-regular bg-[#F5F0EB] overflow-hidden">
-      {/* Background Image */}
-      {/* <div 
-        className="absolute inset-0 bg-contain bg-center opacity-40" 
-        style={{ backgroundImage: `url(${backgroundImage})` }} 
-      ></div> */}
-
       <h2 className="text-3xl md:text-4xl font-bold text-center  mb-4 text-[#555555]" data-aos="fade-up">
         ICEM <span className='text-[#f37021]'>Offerings</span>  
       </h2>
@@ -67,7 +59,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2 ">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2"> Programming Languages (C, C++, Java, Python)</h3>
-            {/* <p className="text-base text-[#555555]">Write efficient, scalable code!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
 
@@ -99,7 +90,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Data Structures & Algorithms</h3>
-            {/* <p className="text-base text-[#555555]">Build optimized software solutions!.Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
 
@@ -115,7 +105,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Web & Mobile App Development </h3>
-            {/* <p className="text-base text-[#555555]">Design user-friendly applications!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
 
@@ -131,7 +120,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Cloud Computing, AI, Machine Learning </h3>
-            {/* <p className="text-base text-[#555555]">Work with AWS, Docker & Kubernetes!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
 
@@ -147,7 +135,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2"> Cybersecurity & Ethical Hacking </h3>
-            {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
 
@@ -163,7 +150,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2">Industry Readiness Programme, Inter Personal Skills & Problem Solving </h3>
-            {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
 
@@ -179,7 +165,6 @@ const IntegratedBcaMcaOfferings = () => {
           />
           <div className="text-center px-4 p-2">
             <h3 className="text-xl md:text-2xl font-semibold text-[#555555] mb-2"> Hands on simulations and Real-world case studies </h3>
-            {/* <p className="text-base text-[#555555]">Secure systems & prevent cyber threats!Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p> */}
           </div>
         </div>
         

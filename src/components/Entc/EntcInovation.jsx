@@ -7,13 +7,13 @@ import bgImage from '../../assets/images/bg.jpg';
 
 export default function EntcInovataion() {
   return (
-    <div className="relative flex flex-col md:flex-row items-center  shadow-lg p-4 mb-2 md:mb-8 md:px-16 overflow-hidden">
+    <div className="relative flex flex-col md:flex-row items-center  shadow-lg p-4  md:px-16 overflow-hidden">
       
       {/* Background Image */}
-      <div 
+      {/* <div 
         className="absolute inset-0 bg-cover bg-center  z-0"
         style={{ backgroundImage: `url(${bgImage})` }}
-      ></div>
+      ></div> */}
 
       {/* Foreground Content */}
       <div className="relative z-10 w-full h-full md:w-1/3 flex justify-center">
@@ -25,10 +25,10 @@ export default function EntcInovataion() {
       </div>
 
       <div className="relative z-10 w-full md:w-2/3 md:pl-6">
-        <h1 className="text-2xl md:text-3xl font-bold text-white mb-4">
+        <h1 className="text-2xl md:text-3xl font-bold text-[#36A5B9] mb-4">
           Where Innovation Meets Connectivity!
         </h1>
-        <p className="text-base md:text-lg text-gray-200 mb-4">
+        <p className="text-base md:text-xl text-gray-700 mb-4">
           Ever wondered how your smartphone connects seamlessly across the globe?<br />
           How autonomous vehicles communicate in real time?<br />
           How AI-powered devices make decisions in a fraction of a second?<br />

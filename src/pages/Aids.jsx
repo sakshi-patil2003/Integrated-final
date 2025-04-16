@@ -23,13 +23,15 @@ function Aids() {
       <AidsPlacement/>
       <AidsRecruiters/>
       <AidsBanner/>
-      <AidsPointers />
       <AidsInovation/>
-      <AidsStudying/>
-      {/* <AidsOverview/> */}
       <AidsReasons/>
       <AidsOfferings/>
       <AidsBrochure /> 
+      <AidsPointers />
+      <AidsStudying/>
+      {/* <AidsOverview/> */}
+      
+      
       {/* <AidsHighlights/> */}
       <AidsTestimonials />
       <AidsApply/>

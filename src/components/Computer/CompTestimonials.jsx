@@ -151,7 +151,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center pt-6 pb-4 text-[#555555]">
-        What Our <span className="text-[#006BB3]">Alumni</span> Say
+        What Our <span className="text-[#134C93]">Alumni</span> Say
       </h1>
       <Testimonials />
     </div>

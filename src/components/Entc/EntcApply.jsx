@@ -10,7 +10,7 @@ const EntcApply = () => {
   }; 
   return (
     <div
-      className="bg-[#ffffff] py-10 px-8 md:px-16 text-center text-white mb-12 shadow-lg relative bg-contain bg-no-repeat bg-center"
+      className="bg-[#ffffff] py-10 px-8 md:px-16 text-center text-white shadow-lg relative bg-contain bg-no-repeat bg-center"
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       {/* Light gray overlay */}
@@ -19,8 +19,8 @@ const EntcApply = () => {
       <div className="relative z-10">
         <h2 className="text-3xl font-semibold text-[#026670] mb-6"> Admission Process: Get Started Today!</h2>
         <p className="text-sm md:text-lg mb-6 text-gray-700">
-          Follow these simple steps to apply for the Information Technology
-          program at ICEM College Pune:
+          Follow these simple steps to apply for the Electrical & Telecommunication
+          programme at ICEM College Pune:
         </p>
  
         {/* Container for steps */}

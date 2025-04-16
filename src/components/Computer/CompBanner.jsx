@@ -16,7 +16,7 @@ const CompBanner = () => {
         
         {/* Subheading */}
         <p className="text-lg sm:text-xl font-semibold mb-2 md:mb-8 animate__animated animate__fadeIn animate__delay-2s">
-          Your search ends at ICEM!
+          Your search ends at <span className='text-[#134C93] font-bold'>ICEM!</span>
         </p>
         
         {/* Button to Learn More */}

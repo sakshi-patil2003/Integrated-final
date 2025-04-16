@@ -40,11 +40,11 @@ function EntcOfferings() {
   return (
    
     <div className="px-8 md:px-16 py-6 md:py-8 bg-[#ffffff] poppins-regular overflow-hidden">
-      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#026670]" data-aos="fade-up">
-        Electrical & Electronics Engineering Offerings
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#36A5B9]" data-aos="fade-up">
+        Electrical & Telecommunication Engineering Offerings
       </h2>
  
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-2 md:gap-y-8 gap-x-4 md:gap-x-20 z-5 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-2 md:gap-y-8 gap-x-4 md:gap-x-10 z-5 justify-center">
         {/* Power Systems & Energy Distribution */}
         <div
           className="bg-[linear-gradient(#9FEDD7,_#026670_51%,_#03828f)] shadow-xl flex flex-col items-center justify-start text-center h-full relative"

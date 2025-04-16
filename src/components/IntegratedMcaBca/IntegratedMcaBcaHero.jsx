@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../../assets/images/bca/bcaheroo.jpg';
+import bgImage from '../../assets/images/bca/herobg.avif';
 
 function BcaHero() {
   return (
@@ -60,12 +60,6 @@ function BcaHero() {
             <input type="text" placeholder="Full Name" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
             <input type="tel" placeholder="Mobile No." className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
             <input type="email" placeholder="Email" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
-            {/* <select className="w-full p-3 rounded-lg bg-transparent border border-white text-white placeholder-gray-300 focus:outline-none focus:border-[#018697]" required>
-              <option value="" disabled selected className="bg-[#003C84] text-white">Select Your Course</option>
-              <option value="bca" className="bg-[#003C84] text-white">BCA</option>
-              <option value="mca" className="bg-[#003C84] text-white">MCA</option>
-              <option value="integrated-bca-mca" className="bg-[#003C84] text-white">Integrated BCA + MCA</option>
-            </select> */}
             <button type="submit" className="w-full bg-[#f37021] text-white font-semibold p-3 rounded-lg hover:bg-[#f78e4f] transition">Submit</button>
           </form>
         </div>

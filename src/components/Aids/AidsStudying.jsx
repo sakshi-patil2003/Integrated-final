@@ -61,7 +61,7 @@ function AidsStudying() {
         {/* Achievements Section */}
 <div className="mt-16" data-aos="fade-up">
   <h2 className="text-3xl font-semibold text-center text-[#117577] mb-10">
-    Our Achievements
+  ICEM Highlights
   </h2>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6 px-4">

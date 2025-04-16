@@ -18,8 +18,8 @@ function AidsOfferings() {
 
   return (
     <div className="px-8 md:px-16 py-6 md:py-8 poppins-regular mt-4">
-      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-sky-900" data-aos="fade-up">
-        AIDS Program Offerings
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-8 text-[#117577]" data-aos="fade-up">
+        AI-DS Engineering Offerings
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-2 md:gap-x-10 justify-center">

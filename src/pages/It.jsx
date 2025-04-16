@@ -1,10 +1,9 @@
 import React from 'react';
 import ItHero from '../components/It/ItHero';  // Import the ItHero component
-// import ItPointers from '../components/It/ItPointers';  // Import the ItPointers component
+import ItPointers from '../components/It/ItPointers';  // Import the ItPointers component
 import ItOfferings from '../components/It/ItOfferings';
 import ItStudying from '../components/It/ItStudying';
-import ItBrochure from '../components/It/ItBrochure';
-import ItHighlights from '../components/It/ItHighlights';
+import ItBrochure from '../components/It/ItBrochure'
 import ItApply from '../components/It/ItApply';
 import ItTestimonials from '../components/It/ItTestimonials';
 // import AutoChatbot from '../components/AutoChatbot'; // Import AutoChatbot
@@ -22,13 +21,12 @@ function It() {
       <ItPlacement/>
       <CompRecruter/>
       <ItBanner/>  
-      {/* <ItPointers />   */}
       <ItInovation/>
-      <ItStudying /> 
       <ItReasons/>
       <ItOfferings />
-      <ItBrochure />  
-      <ItHighlights /> 
+      <ItBrochure /> 
+      <ItPointers />  
+      <ItStudying /> 
       <ItTestimonials />
       <ItApply />  
       <Footer/>
