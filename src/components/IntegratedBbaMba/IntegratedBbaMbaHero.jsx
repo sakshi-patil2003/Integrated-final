@@ -22,7 +22,7 @@ function BcaHero() {
       <div className="relative z-10 text-black text-center lg:text-left max-w-2xl lg:mb-0">
 
         {/* 🟧 Banner Box at the Top */}
-        <div className="inline-block mb-6">
+        <div className="inline-block">
           <div className="bg-transparent border border-[#ff9900] text-[#600000] px-3 py-1 text-2xl font-bold rounded-t-md tracking-wide">
             ADMISSIONS OPEN FOR
           </div>
@@ -39,7 +39,7 @@ function BcaHero() {
         </p>
         {/* 🔤 Main Heading */}
         <h2 className="text-3xl md:text-2xl lg:text-5xl font-bold leading-tight">
-          Pune’s top <br/> Management <br/> Education Group <br/> Indira Group of <br/> Institutes
+          Pune’s top <br/> Management <br/> Education <br/> Group <br/> Indira Group <br/> of  Institutes
         </h2>
 
         {/* 📍Subtext */}
