@@ -15,7 +15,7 @@ const profiles = [
   {
     name: "Mr. Siddhant Kadam",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 27 LPA",
+    ctc: "CTC 21 LPA",
     image: johnDoeImage, // Imported image
   },
   {
