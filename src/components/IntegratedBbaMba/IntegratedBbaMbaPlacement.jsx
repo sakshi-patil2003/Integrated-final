@@ -1,80 +1,85 @@
 import "react";
- 
+
 // Import profile images
-import johnDoeImage from "../../../public/BBA-MBA/passport.avif";
-import janeSmithImage from "../../../public/BBA-MBA/passport.avif";
-import arjunPatelImage from "../../../public/BBA-MBA/passport.avif";
-import snehaRaoImage from "../../../public/BBA-MBA/passport.avif";
-import aliKhanImage from "../../../public/BBA-MBA/passport.avif";
-import meeraDasImage from "../../../public/BBA-MBA/passport.avif";
- 
+import TanayDhote from "../../../public/BBA-MBA/tanay.avif";
+import Aditya_Kale from "../../../public/BBA-MBA/Aditya_Kale.avif";
+import Aditya from "../../../public/BBA-MBA/Aditya_Baliram.avif";
+import Utkarsh from "../../../public/BBA-MBA/Utkarsh_Wagh.avif";
+import sakshi from "../../../public/BBA-MBA/sakshi.avif";
+import nilesh from "../../../public/BBA-MBA/nilesh_Godse.avif";
+
 // Profile data
 const profiles = [
   {
-    name: "Manisha Sharma",
+    name: "Mr.Tanay Dhote",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 24 LPA",
-    image: johnDoeImage, // Imported image
+    ctc: "CTC 32 LPA",
+    image: TanayDhote,
   },
   {
-    name: "Kapil Sharma",
+    name: "Mr.Aditya Kale",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 24 LPA",
-    image: janeSmithImage, // Imported image
+    ctc: "CTC 12 LPA",
+    image: Aditya_Kale,
   },
   {
-    name: "Arjun Patel",
+    name: "Mr.Aditya Pawar",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 21 LPA",
-    image: arjunPatelImage, // Imported image
+    ctc: "CTC 11 LPA",
+    image: Aditya,
   },
   {
-    name: "Sneha Rao",
+    name: "Mr.Utkarsh Wagh",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 27 LPA",
-    image: snehaRaoImage, // Imported image
+    ctc: "CTC 10.5 LPA",
+    image: Utkarsh,
   },
   {
-    name: "Ali Khan",
+    name: "Ms.Sakshi Ghute",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 21 LPA",
-    image: aliKhanImage, // Imported image
+    ctc: "CTC 10.2 LPA",
+    image: sakshi,
   },
   {
-    name: "Meera Das",
+    name: "Mr.Nilesh Godse",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 27 LPA",
-    image: meeraDasImage, // Imported image
+    ctc: "CTC 10.2 LPA",
+    image: nilesh,
   },
 ];
- 
+
 function IntegratedBbaMbaPlacement() {
   return (
-    <div className="bg-[#F7F3EF] py-8 px-4">
+    <div className="bg-[#F7F3EF] py-10 px-4 sm:px-6 md:px-10 lg:px-16">
       {/* Heading */}
-      <h1 className="text-3xl md:text-4xl font-bold text-center mb-6 md:mb-10 text-gray-800">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
         OUR TOP PLACEMENT
       </h1>
- 
-      {/* Profiles Grid */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+
+      {/* Responsive Profiles Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-6 sm:gap-8">
         {profiles.map((profile, index) => (
-          <div key={index} className="flex flex-col items-center">
+          <div
+            key={index}
+            className="flex flex-col items-center text-center space-y-2"
+          >
             <img
               src={profile.image}
               alt={profile.name}
-              className="rounded-full w-24 md:w-36 h-24 md:h-36 mb-4 object-cover border-6 border-[#FCFAEE]" // Added border class here
+              className="rounded-full w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 border-4 border-[#FCFAEE] object-top"
             />
-            <div className="text-lg font-semibold text-gray-800">
+            <div className="text-sm sm:text-base font-semibold text-gray-800">
               {profile.name}
             </div>
-            <div className="text-sm text-gray-600 mt-1">{profile.batch}</div>
- 
-            {/* CTC Container with Gradient Background and no line break */}
-            <div className="mt-2 md:mt-3 bg-gradient-to-l from-[#DC8620] via-[#FDD951] to-[#DC8620] text-black px-2 md:px-4 py-1 md:py-2 rounded-full text-2xl font-semibold whitespace-nowrap flex items-center gap-1">
-              <span className="text-lg md:text-2xl">CTC</span>
-              <span className="text-xl md:text-4xl font">{profile.ctc.match(/\d+/)}</span>
-              <span className="text-lg md:text-2xl">LPA</span>
+            <div className="text-xs sm:text-sm text-gray-600">{profile.batch}</div>
+
+            {/* CTC Tag */}
+            <div className="bg-gradient-to-l from-[#DC8620] via-[#FDD951] to-[#DC8620] px-3 py-1 rounded-full text-black font-bold text-xs sm:text-sm md:text-base lg:text-lg flex items-center justify-center gap-1">
+              <span className="font-medium">CTC</span>
+              <span className="text-lg sm:text-xl md:text-2xl">
+                {profile.ctc.match(/\d+(\.\d+)?/)} {/* Extracting number like 10.5 */}
+              </span>
+              <span className="font-medium">LPA</span>
             </div>
           </div>
         ))}
@@ -82,5 +87,5 @@ function IntegratedBbaMbaPlacement() {
     </div>
   );
 }
- 
+
 export default IntegratedBbaMbaPlacement;

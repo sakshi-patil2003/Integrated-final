@@ -4,7 +4,8 @@ import bgImage from '../../assets/images/bca/herobg.avif';
 function BcaHero() {
   return (
     <div className="relative lg:min-h-screen flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 lg:px-20 py-12 lg:py-0 overflow-hidden">
-      {/* Background Image */}
+
+      {/* 🌄 Background Image */}
       <div
         className="hidden md:block absolute top-0 left-0 w-full h-full bg-cover bg-center"
         style={{
@@ -14,39 +15,38 @@ function BcaHero() {
         }}
       ></div>
 
-      {/* Black Overlay */}
+      {/* 🖤 Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0"></div>
 
-      {/* Left Side Content */}
+      {/* ✏️ Left Side Content */}
       <div className="relative z-10 text-black text-center lg:text-left max-w-2xl lg:mb-0">
-        <h2 className="text-3xl  md:text-2xl lg:text-6xl font-bold leading-tight">
-        Pune’s top Management Education Group Indira Group of Institutes
-        </h2>
 
-        {/* 🔶 Custom Banner Box */}
-        <div className="mt-6 inline-block">
-          {/* Top small box */}
+        {/* 🟧 Banner Box at the Top */}
+        <div className="inline-block mb-6">
           <div className="bg-transparent border border-[#ff9900] text-[#600000] px-3 py-1 text-2xl font-bold rounded-t-md tracking-wide">
             ADMISSIONS OPEN FOR
           </div>
-
-          {/* Bottom big box */}
           <div className="bg-[#f37021] text-[#600000] px-6 py-3 rounded-b-md shadow-md">
             <div className="text-2xl font-bold">Integrated</div>
             <div className="text-3xl lg:text-5xl font-extrabold tracking-wide">BBA + MBA</div>
           </div>
         </div>
-
         <p className="mt-6 hidden md:block text-xl md:text-lg lg:text-2xl mb-4 font-bold">
           (Affiliated to SPPU, Pune University)
         </p>
         <p className="mt-6 text-xl block md:hidden md:text-lg lg:text-2xl mb-4 font-bold">
-         ( Affiliated to SPPU, <br></br> Pune University)
+          ( Affiliated to SPPU, <br /> Pune University)
         </p>
+        {/* 🔤 Main Heading */}
+        <h2 className="text-3xl md:text-2xl lg:text-5xl font-bold leading-tight">
+          Pune’s top <br/> Management <br/> Education Group <br/> Indira Group of <br/> Institutes
+        </h2>
 
+        {/* 📍Subtext */}
+       
       </div>
 
-      {/* Form Section */}
+      {/* 📝 Form Section */}
       <div className="relative z-10 w-full max-w-md">
         <div
           className="p-4 sm:p-6 lg:p-8 rounded-lg shadow-lg border-2"
@@ -64,7 +64,6 @@ function BcaHero() {
             <input type="text" placeholder="Full Name" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
             <input type="tel" placeholder="Mobile No." className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
             <input type="email" placeholder="Email" className="w-full p-3 rounded-lg bg-transparent border border-black text-black placeholder-gray-800 focus:outline-none focus:border-[#018697]" required />
-            
             <button type="submit" className="w-full bg-[#f37021] text-white font-semibold p-3 rounded-lg hover:bg-[#f78e4f] transition">Submit</button>
           </form>
         </div>

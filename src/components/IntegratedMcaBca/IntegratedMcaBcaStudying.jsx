@@ -124,7 +124,7 @@ const IntegratedBcaMcaStuddying = () => {
           <div className="w-full rounded-lg overflow-hidden">
           <img src={MyImage}
           alt="Indira College"
-          className="w-full h-auto object-contain md:object-left sm:h-full sm:object-cover sm:aspect-auto"/>
+          className="w-full h-auto object-contain  sm:aspect-auto"/>
 
           </div>
         </div>
