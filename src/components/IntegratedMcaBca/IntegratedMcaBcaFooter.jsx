@@ -1,16 +1,13 @@
 import React, { useEffect } from "react";
-import logo from '../../../src/assets/images/logos/indirafooter.avif';
+import logo from '../../assets/images/logos/indirafooter.avif';
 
-function IntegratedMcaBcaFooter() {
+function Footer() {
   useEffect(() => {
-    // Dynamically inject Font Awesome CDN
     const link = document.createElement("link");
     link.rel = "stylesheet";
     link.href =
       "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css";
     document.head.appendChild(link);
-
-    // Cleanup when the component is unmounted
     return () => {
       document.head.removeChild(link);
     };
@@ -18,143 +15,96 @@ function IntegratedMcaBcaFooter() {
 
   return (
     <div className="font-baskerville-regular">
-      <div className="bg-gray-100 px-8 md:px-16 text-black py-4  flex-grow">
-        <div className="flex flex-col sm:flex-row justify-around">
+      <div className="bg-gray-100 px-4 md:px-10 py-6 rounded-tl-3xl rounded-tr-3xl">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between gap-6">
           {/* Left Column */}
-          <div className="flex flex-col sm:items-start  ">
-            {/* Logo Section */}
-            <div className="flex">
-              <img src={logo} alt="ICEM Logo" className="w-40 sm:w-48" />
+          <div className="flex flex-col sm:w-1/2 text-sm">
+            <div className="mb-4">
+              <img src={logo} alt="ICEM Logo" className="w-32 sm:w-40" />
             </div>
 
-            {/* Contact Info */}
-            <div className="text-sm space-y-6">
-              <div className="flex items-center space-x-2">
-                <i className="fas fa-map-marker-alt text-xl hover:text-blue-500"></i>
+            <div className="space-y-4 text-gray-700">
+              <div className="flex items-start gap-2">
+                <i className="fas fa-map-marker-alt text-lg text-[#023b5e]" />
                 <div>
                   <p>Indira College of Engineering & Management (ICEM)</p>
-                  <p>S.No. 64,65, Gat No. 276 At Post: Parandwadi,</p>
-                  <p>Near Somatne phata, Tal: Maval, Dist: Pune – 410 506</p>
+                  <p>S.No. 64,65, Gat No. 276 At Post : Parandwadi,</p>
+                  <p>Near Somatne phata, Tal. : Maval, Dist. Pune – 410 506</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-2">
-                <i className="fas fa-phone-alt text-xl hover:text-green-500"></i>
-                <div>
-                  <p>CONNECT WITH US: 91+ 7720010705 / 06</p>
-                </div>
+              <div className="flex items-center gap-2">
+                <i className="fas fa-phone-alt text-lg text-green-600" />
+                <p>91+ 7020512131</p>
               </div>
-              <div className="flex items-center space-x-2">
-                <i className="fas fa-envelope text-xl hover:text-gray-500"></i>
-                <div>
-                  <p>info@indiraicem.ac.in</p>
-                </div>
+              <div className="flex items-center gap-2">
+                <i className="fas fa-envelope text-lg text-gray-500" />
+                <p>info@indiraicem.ac.in</p>
               </div>
-
-              {/* Add Website Link */}
-              <div className="flex items-center space-x-2">
-                <i className="fas fa-globe text-xl hover:text-blue-600"></i>
-                <div>
-                  <a
-                    href="https://www.indiraicem.ac.in"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-blue-700"
-                  >
-                    www.indiraicem.ac.in
-                  </a>
-                </div>
+              <div className="flex items-center gap-2">
+                <i className="fas fa-globe text-lg text-blue-600" />
+                <a
+                  href="https://www.indiraicem.ac.in"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-700"
+                >
+                  www.indiraicem.ac.in
+                </a>
               </div>
             </div>
 
-            {/* Social Media Icons */}
-            <div className="flex space-x-4 text-xl mt-6 mb-4">
-              <a
-                href="https://facebook.com"
-                aria-label="Facebook"
-                className="hover:text-blue-600"
-              >
-                <i className="fab fa-facebook-f"></i>
+            <div className="flex gap-4 text-lg mt-4">
+              <a href="https://www.facebook.com/ICEM.AVIRAT" className="hover:text-blue-600">
+                <i className="fab fa-facebook-f" />
               </a>
-              <a
-                href="https://instagram.com"
-                aria-label="Instagram"
-                className="hover:text-pink-600"
-              >
-                <i className="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/icem_pune/#" className="hover:text-pink-600">
+                <i className="fab fa-instagram" />
               </a>
-              <a
-                href="https://linkedin.com"
-                aria-label="LinkedIn"
-                className="hover:text-blue-700"
-              >
-                <i className="fab fa-linkedin-in"></i>
+              <a href="https://www.linkedin.com/company/indira-college-of-engineering-and-management-pune/about/" className="hover:text-blue-700">
+                <i className="fab fa-linkedin-in" />
               </a>
-              <a
-                href="https://twitter.com"
-                aria-label="Twitter"
-                className="hover:text-blue-400"
-              >
-                <i className="fab fa-twitter"></i>
+              <a href="https://x.com/igipune" className="hover:text-blue-400">
+                <i className="fab fa-twitter" />
               </a>
-              <a
-                href="https://youtube.com"
-                aria-label="YouTube"
-                className="hover:text-red-600"
-              >
-                <i className="fab fa-youtube"></i>
+              <a href="https://www.youtube.com/@indirauniversitypune" className="hover:text-red-600">
+                <i className="fab fa-youtube" />
               </a>
             </div>
           </div>
 
-          {/* Right Column (Important Links) */}
-          <div className="flex flex-col sm:items-start sm:ml-6">
-            <h3 className="text-2xl text-[#023b5e] font-bold mb-6">Important Links</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <div className="space-y-4">
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  Staff Grievance Form
+          {/* Right Column */}
+          <div className="sm:w-1/2">
+            <h3 className="text-lg sm:text-xl text-[#023b5e] font-bold mb-4">
+              Important Links
+            </h3>
+            <div className="grid grid-cols-2 gap-3 text-sm text-gray-600">
+              {[
+                "Staff Grievance Form",
+                "Women Welfare Policy",
+                "Anti Ragging Policy",
+                "Faculty Application Form",
+                "SPPU",
+                "AICTE",
+                "DTE",
+                "MahaDBT",
+                "MANDATORY DISCLOSURE",
+                "AICTE APPROVAL",
+              ].map((link, i) => (
+                <a key={i} href="#" className="hover:text-gray-400">
+                  {link}
                 </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  Women Welfare Policy
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  Anti Ragging Policy
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  Faculty Application Form
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  SPPU
-                </a>
-              </div>
-              <div className="space-y-4">
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  AICTE
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  DTE
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  MahaDBT
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  MANDATORY DISCLOSURE
-                </a>
-                <a href="#" className="block text-gray-500 hover:text-gray-400">
-                  AICTE APPROVAL
-                </a>
-              </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
 
-      {/* Copyright Section */}
-      <div className="bg-[#023b5e] py-4 px-8 md:px-16 text-left text-white text-sm">
-        <p>© 2024. Indira College of Engineering and Management.</p>
+      <div className="bg-[#023b5e] text-white text-xs sm:text-sm text-center py-3 px-4">
+        © 2024. Indira College of Engineering and Management.
       </div>
     </div>
   );
 }
 
-export default IntegratedMcaBcaFooter;
+export default Footer;
+
