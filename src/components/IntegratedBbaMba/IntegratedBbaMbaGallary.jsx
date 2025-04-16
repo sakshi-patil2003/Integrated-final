@@ -1,11 +1,11 @@
 import React from "react";
-import image1 from "/public/BBA-MBA/rs.jpg";
-import image2 from "/public/BBA-MBA/nss.jpg";
-import image3 from "/public/BBA-MBA/course.jpg";
-import image4 from "/public/BBA-MBA/green_tour.jpg";
-import image5 from "/public/BBA-MBA/tech_fest 1.jpg";
-import image6 from "/public/BBA-MBA/sports 1.jpg";
-import image7 from "/public/BBA-MBA/prarambh-bca.jpg";
+import image1 from '../../assets/images/Com-Images/rs.avif';
+import image2 from '../../assets/images/Com-Images/nss.avif';
+import image3 from '../../assets/images/Com-Images/course.avif';
+import image4 from '../../assets/images/Com-Images/green_tour.avif';
+import image5 from '../../assets/images/Com-Images/tech_fest.avif';
+import image6 from '../../assets/images/Com-Images/sports.avif';
+import image7 from '../../assets/images/Com-Images/prarambh-bca.avif';
 import tvImage from "../../assets/images/image.png";
 
 const videos = [

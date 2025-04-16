@@ -13,7 +13,7 @@ const profiles = [
   {
     name: "Mr. Siddhant Kadam",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 21 LPA",
+    ctc: "CTC 27 LPA",
     image: johnDoeImage,
   },
   {
@@ -43,17 +43,17 @@ const profiles = [
   {
     name: "Mr. Kushal Swamy",
     batch: "(Batch : 2024-25)",
-    ctc: "CTC 27 LPA",
+    ctc: "CTC 21 LPA",
     image: meeraDasImage,
   },
 ];
 
 function IntegratedBbaMbaPlacement() {
   return (
-    <div className="bg-[#F7F3EF] py-10 px-4 sm:px-6 md:px-10 lg:px-16">
+    <div className="bg-[#F7F3EF] py-10 px-4 sm:px-6 md:px-8">
       {/* Heading */}
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 text-gray-800">
-        OUR TOP PLACEMENT
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 text-[#555555]">
+        Our <span className="text-[#f37021]">Top</span> Placements
       </h1>
 
       {/* Responsive Profiles Grid */}

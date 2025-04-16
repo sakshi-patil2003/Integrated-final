@@ -10,7 +10,7 @@ import recruitersIcon from '../../assets/images/bca/logo3.avif';
 const data = [
   {
     icon: offlineIcon,
-    value: "Program Format",
+    value: "Programme Format",
     description: "Offline",
   },
   {
@@ -20,7 +20,7 @@ const data = [
   },
   {
     icon: feesIcon,
-    value: "Program Fees",
+    value: "Programme Fees",
     description: "Rs.77,368.00/-",
   },
   {
