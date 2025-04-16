@@ -91,12 +91,12 @@ const IntegratedBcaMcaStuddying = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full md:w-[40%] flex justify-center" data-aos="fade-left">
+        <div className="w-full md:w-[40%] flex justify-center mt-12" data-aos="fade-left ">
           <div className="w-full max-w-md rounded-lg overflow-hidden">
             <img
               src={MyImage}
               alt="Indira College"
-              className="w-full h-auto object-cover aspect-video md:aspect-auto"
+              className="w-full h-auto object-cover"
             />
           </div>
         </div>
