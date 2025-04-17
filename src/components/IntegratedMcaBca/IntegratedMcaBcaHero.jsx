@@ -31,12 +31,16 @@ function BcaHero() {
             <div className="text-3xl lg:text-5xl font-extrabold tracking-wide">BCA + MCA</div>
           </div>
         </div>
+        <p className="mt-6 text-lg font-semibold text-[#600000]">
+         (Affiliated to SPPU, Pune University)
+     </p>
      
         {/* 🔤 Main Heading */}
-        <h2 className="text-3xl md:text-2xl lg:text-5xl font-bold leading-tight">
-          Pune’s top <br/> Management <br/> Education <br/> Group (IGI)
+        <h2 className="text-3xl md:text-2xl mt-4 lg:text-5xl font-bold leading-tight">
+          Pune’s top <br/> Management <br/> Education <br/> Group 
         </h2>
-
+        
+        
         {/* 📍Subtext */}
        
       </div>

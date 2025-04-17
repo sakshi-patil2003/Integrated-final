@@ -57,7 +57,7 @@ const IntegratedBcaMcaStuddying = () => {
         {/* Left Content */}
         <div className="w-full md:w-[60%]" data-aos="fade-right">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#555555] mb-2">
-            Invent, Integrate, Impact.
+            Invent, Integrate & Impact.
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-[#f37021] mb-4">
             Integrated BBA + MBA

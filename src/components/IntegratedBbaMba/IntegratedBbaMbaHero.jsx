@@ -31,7 +31,7 @@ function BcaHero() {
             <div className="text-3xl lg:text-5xl font-extrabold tracking-wide">BBA + MBA</div>
           </div>
         </div>
-        <p className="mt-6 hidden md:block text-xl md:text-lg lg:text-2xl mb-4 font-bold">
+        <p className="mt-6 hidden md:block text-lg md:text-lg  mb-4 font-semibold text-[#600000]">
           (Affiliated to SPPU, Pune University)
         </p>
         <p className="mt-6 text-xl block md:hidden md:text-lg lg:text-2xl mb-4 font-bold">
@@ -39,7 +39,7 @@ function BcaHero() {
         </p>
         {/* 🔤 Main Heading */}
         <h2 className="text-3xl md:text-2xl lg:text-5xl font-bold leading-tight">
-          Pune’s top <br/> Management <br/> Education <br/> Group (IGI)
+          Pune’s top <br/> Management <br/> Education <br/> Group 
         </h2>
 
         {/* 📍Subtext */}

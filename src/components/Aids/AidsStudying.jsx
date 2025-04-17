@@ -107,7 +107,7 @@ function AidsStudying() {
           <img
             src={MyImage}
             alt="Indira College Image"
-            className="w-full h-auto object-contain rounded-lg shadow-lg"
+            className="w-full h-auto object-ccontain   rounded-lg shadow-lg"
           />
         </div>
       </div>

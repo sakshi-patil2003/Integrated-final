@@ -34,7 +34,7 @@ function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-phone-alt text-lg text-green-600" />
-                <p>91+ 7020512131</p>
+                <p>+91 7020512131</p>
               </div>
               <div className="flex items-center gap-2">
                 <i className="fas fa-envelope text-lg text-gray-500" />

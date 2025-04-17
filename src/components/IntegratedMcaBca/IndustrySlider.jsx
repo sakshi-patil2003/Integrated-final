@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import image1 from '../../assets/images/Com-Images/rs.avif';
 import image2 from '../../assets/images/Com-Images/nss.avif';
 import image3 from '../../assets/images/Com-Images/course.avif';
@@ -6,124 +6,145 @@ import image4 from '../../assets/images/Com-Images/green_tour.avif';
 import image5 from '../../assets/images/Com-Images/tech_fest.avif';
 import image6 from '../../assets/images/Com-Images/sports.avif';
 import image7 from '../../assets/images/Com-Images/prarambh-bca.avif';
-import arrow from '../../assets/images/Com-Images/sulta.svg'; // ➡️↘️ arrow
+import tvImage from "../../assets/images/image.png";
+
+const videos = [
+  {
+    id: "sU3FkzUKHXU",
+    title: "Ground",
+  },
+  {
+    id: "3JZ_D3ELwOQ",
+    title: "Canteen",
+  },
+];
 
 const images = [
   { src: image1, name: "The rising Star – Freshers party" },
-  { src: image2, name: "NSS Activities" },
-  { src: image3, name: "Successful completion of Basics of Stock Market" },
+  { src: image2, name: "NSS Activities " }, // moved to bottom
+  { src: image3, name: "Basics of Stock Market" },
   { src: image4, name: "Mahabaleshwar Green Tour" },
   { src: image5, name: "Tech-Fest" },
   { src: image6, name: "Chanakya Sports Complex" },
-  { src: image7, name: "Induction Program Prarambh" }
+  { src: image7, name: "Induction Program Prarambh" },
 ];
 
-const Gallery = () => {
+const LifeAtICEM = () => {
   return (
-    <div className="container mx-auto px-4 md:px-16 text-center py-8 bg-[#FCFAEE] overflow-hidden">
-      <h1 className="text-5xl text-[#555555] font-bold mb-16">
+    <div className="w-full bg-[#FCFAEE] px-4 md:px-16">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl text-[#222] font-bold text-center pb-4">
         Life At <span className="text-[#f37021]">ICEM</span>
       </h1>
 
-      {/* Videos with Individual Decorative Arrows */}
-      <div className="flex flex-wrap justify-center gap-20 mb-16 px-4 relative z-10">
-        {/* Video 1 with Arrows */}
-        <div className="relative w-full md:w-[38%] aspect-video">
-          {/* Top-left arrow */}
-          <img
-            src={arrow}
-            alt="top-left-arrow"
-            className="absolute -top-8 -left-10 w-30 z-20"
-          />
-          {/* Bottom-right arrow */}
-          <img
-            src={arrow}
-            alt="bottom-right-arrow"
-            className="absolute -bottom-8 -right-10 w-30 rotate-180 z-20"
-          />
-          <div className="w-full h-full shadow-xl transition-transform duration-300">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/fiIYjIaeEQg"
-              title="Indira Corporate Film"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
+      {/* Custom Layout */}
+      <div className="w-full mx-auto  py-10 flex flex-col gap-6">
 
-        {/* Video 2 with Arrows */}
-        <div className="relative w-full md:w-[44%] aspect-video">
-          {/* Top-left arrow */}
-          <img
-            src={arrow}
-            alt="top-left-arrow"
-            className="absolute -top-8 -left-10 w-30 z-20"
-          />
-          {/* Bottom-right arrow */}
-          <img
-            src={arrow}
-            alt="bottom-right-arrow"
-            className="absolute -bottom-8 -right-10 w-30 rotate-180 z-20"
-          />
-          <div className="w-full h-full shadow-xl transition-transform duration-300">
-            <iframe
-              className="w-full h-full"
-              src="https://www.youtube.com/embed/-rAt2kuZN1E"
-              title="Gusto 2k25"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-
-      {/* First Row: 1 Large + 2 Equal Images */}
-      <div className="flex flex-wrap justify-between gap-4">
-        <div className="relative w-full md:w-1/2 md:h-[300px] overflow-hidden rounded-3xl shadow-md">
-          <img
-            src={images[0].src}
-            alt={images[0].name}
-            className="w-full h-full object-cover rounded-3xl"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent text-white text-lg uppercase font-light py-2 flex items-end justify-center">
-            {images[0].name}
-          </div>
-        </div>
-
-        {images.slice(1, 3).map((item, index) => (
-          <div key={index + 1} className="relative md:w-[calc(25%-1rem)] md:h-[300px] overflow-hidden rounded-3xl shadow-md">
-            <img
-              src={item.src}
-              alt={item.name}
-              className="w-full md:h-full object-cover rounded-3xl"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent text-white text-lg uppercase font-light py-2 flex items-end justify-center">
-              {item.name}
+        {/* Row 1: TV left, 1 image right */}
+        <div className="flex flex-col lg:flex-row gap-6 items-center justify-center">
+          {/* TV */}
+          <div className="relative w-[360px] sm:w-[440px] md:w-[600px]">
+            <img src={tvImage} alt="TV Frame" className="w-full h-auto" />
+            <div
+              className="absolute"
+              style={{
+                top: "2%",
+                left: "3%",
+                width: "68%",
+                height: "56%",
+                borderRadius: "8px",
+                overflow: "hidden",
+              }}
+            >
+              <iframe
+                src={`https://www.youtube.com/embed/-rAt2kuZN1E/${videos[0].id}`}
+                title={videos[0].title}
+                allowFullScreen
+                className="w-full h-full"
+              />
             </div>
           </div>
-        ))}
-      </div>
 
-      {/* Second Row: 4 Equal Images */}
-      <div className="flex flex-wrap justify-between gap-4 mt-4">
-        {images.slice(3, 7).map((item, index) => (
-          <div key={index + 3} className="relative md:flex-1 md:min-w-[22%] md:h-[300px] overflow-hidden rounded-3xl shadow-md">
+          {/* One Image */}
+          <div className="relative w-full sm:w-[500px] h-[250px] md:h-[300px] overflow-hidden rounded-3xl shadow-md">
             <img
-              src={item.src}
-              alt={item.name}
+              src={images[0].src}
+              alt={images[0].name}
               className="w-full h-full object-cover rounded-3xl"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent text-white text-lg font-light uppercase py-2 flex items-end justify-center">
-              {item.name}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent text-white text-sm md:text-base lg:text-lg uppercase font-medium px-2 pb-3 flex items-end justify-center text-center">
+              {images[0].name}
             </div>
           </div>
-        ))}
+        </div>
+
+        {/* Row 2: 2 images left, FLIPPED TV right */}
+        <div className="flex flex-col lg:flex-row-reverse gap-6 items-center justify-center">
+          {/* Flipped TV */}
+          <div className="relative w-[360px] sm:w-[440px] md:w-[520px] scale-x-[-1]">
+            <img src={tvImage} alt="TV Frame" className="w-full h-auto" />
+            <div
+              className="absolute"
+              style={{
+                top: "2%",
+                left: "3%",
+                width: "68%",
+                height: "56%",
+                borderRadius: "8px",
+                overflow: "hidden",
+              }}
+            >
+              <iframe
+                src={`https://www.youtube.com/embed/fiIYjIaeEQg/${videos[1].id}`}
+                title={videos[1].title}
+                allowFullScreen
+                className="w-full h-full scale-x-[-1]"
+              />
+            </div>
+          </div>
+
+          {/* Two Images */}
+          <div className="flex flex-col sm:flex-row gap-4">
+            {images.slice(2, 4).map((item, index) => (
+              <div
+                key={index}
+                className="relative w-full sm:w-[300px] h-[250px] md:h-[300px] overflow-hidden rounded-3xl shadow-md"
+              >
+                <img
+                  src={item.src}
+                  alt={item.name}
+                  className="w-full h-full object-cover rounded-3xl"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent text-white text-sm md:text-base lg:text-lg uppercase font-medium px-2 pb-3 flex items-end justify-center text-center">
+                  {item.name}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Remaining gallery including the moved image */}
+      <div className="px-4 text-center py-8 bg-[#FCFAEE]">
+        <div className="flex flex-wrap gap-4 justify-center">
+          {images.slice(1, 2).concat(images.slice(4)).map((item, index) => (
+            <div
+              key={index}
+              className="relative basis-full sm:basis-[48%] md:basis-[23%] h-[250px] md:h-[300px] overflow-hidden rounded-3xl shadow-md"
+            >
+              <img
+                src={item.src}
+                alt={item.name}
+                className="w-full h-full object-cover rounded-3xl"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent text-white text-sm md:text-base lg:text-lg uppercase font-medium px-2 pb-3 flex items-end justify-center text-center">
+                {item.name}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
-export default Gallery;
+export default LifeAtICEM;

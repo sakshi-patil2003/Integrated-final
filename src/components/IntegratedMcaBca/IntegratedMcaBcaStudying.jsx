@@ -59,17 +59,17 @@ const IntegratedBcaMcaStuddying = () => {
         {/* Left Content */}
         <div className="w-full md:w-[60%]" data-aos="fade-right">
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#555555] mb-2">
-            Invent, Integrate, Impact.
+            Invent, Integrate & Impact.
           </h1>
           <h2 className="text-lg sm:text-xl md:text-2xl font-semibold text-[#f37021] mb-4">
-            Integrated BCA + MCA
+            Integrated BCA - MCA
           </h2>
           <p className="text-sm sm:text-base md:text-lg mb-6 text-[#555555]">
             Indira College of Engineering & Management offers a future-focused <b>5-year Integrated BCA-MCA course after 12th,</b>
             blending tech education with hands-on experience. The campus features <b>advanced computer labs</b>, modern <b>libraries</b>,
             digital <b>laboratories</b>, spacious <b>hostels</b>, reliable <b>transportation</b>, a hygienic <b>canteen</b>, and top-notch <b>sports</b> facilities.
             With top tech <b>events</b>, expert mentorship, and an industry-aligned curriculum, it's one of the <b>best colleges for
-            integrated BCA MCA.</b>
+            integrated BCA-MCA.</b>
           </p>
 
 

@@ -84,7 +84,7 @@ function IntegratedBbaMbaReasons() {
     },
     {
       icon: <FaUsers className={`${iconSizeClass} text-gray-500`} />,
-      text: "100% Placement Assistance with a Strong Alumni Network",
+      text: "100% Guarented Placement Assistance with a Strong Alumni Network",
     },
     {
       icon: <FaBriefcase className={`${iconSizeClass} text-gray-500`} />,

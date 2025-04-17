@@ -3,7 +3,7 @@ import "react";
 // Import profile images
 import johnDoeImage from '../../assets/images/bca/sidharth.avif';
 import janeSmithImage from '../../assets/images/bca/shwetank.avif';
-import arjunPatelImage from '../../assets/images/bca/vishvjeet.avif';
+import arjunPatelImage from '../../assets/images/bca/Vishwajeet_Mahendra_Ranaware.png';
 import snehaRaoImage from '../../assets/images/bca/amitsing.avif';
 import aliKhanImage from '../../assets/images/bca/poornima.avif';
 import meeraDasImage from '../../assets/images/bca/kushal.avif';
@@ -23,7 +23,7 @@ const profiles = [
     image: janeSmithImage,
   },
   {
-    name: "Mr. Vishwajeet Ranaware",
+    name: "Mr. Vishwajeet ",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 21 LPA",
     image: arjunPatelImage,
@@ -63,7 +63,7 @@ function IntegratedBbaMbaPlacement() {
             <img
               src={profile.image}
               alt={profile.name}
-              className="rounded-full w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 border-4 border-[#FCFAEE] object-cover"
+              className="rounded-full w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 border-4 border-[#FCFAEE] object-cover object-top"
             />
             <div className="text-sm sm:text-base font-semibold text-gray-800">
               {profile.name}

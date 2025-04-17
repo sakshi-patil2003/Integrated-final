@@ -24,12 +24,23 @@ function EntcBrochure() {
         </div>
  
         {/* Download Button */}
-        <div className="text-center md:text-right">
+        {/* <div className="text-center md:text-right">
           <button className="bg-[#9FEDD7] border-2 border-[#026670] text-[#026670] px-2 py-1 rounded-3xl hover:bg-[#A2F5E1] transition duration-300 flex justify-center md:justify-start items-center space-x-2 text-sm">
             <FontAwesomeIcon icon={faDownload} />
             <span>Download Brochure</span>
           </button>
-        </div>
+        </div> */}
+        <div>
+                <a
+                  // href="/brochures/aids-brochure.pdf"
+                  // download="AIDS-Brochure.pdf"
+                  onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                  className="bg-[#9FEDD7] border-2 border-[#026670] text-[#026670] px-2 py-1 rounded-3xl hover:bg-[#A2F5E1] transition duration-300 flex justify-center md:justify-start items-center space-x-2 text-sm"
+                >
+                  <FontAwesomeIcon icon={faDownload} />
+                  <span>Download Brochure</span>
+                </a>
+              </div>
       </div>
     </div>
   );
