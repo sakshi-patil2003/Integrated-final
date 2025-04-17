@@ -30,7 +30,7 @@ function IntegratedMcaBcaReasons() {
     },
     {
       icon: <FaHandshake className={`${iconSizeClass} text-gray-500`} />,
-      title: "100% placement support with active alumni network",
+      title: "100%  guarented placement support with active alumni network",
     },
     {
       icon: <FaProjectDiagram className={`${iconSizeClass} text-gray-500`} />,

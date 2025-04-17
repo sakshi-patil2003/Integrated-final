@@ -75,7 +75,7 @@ const IntegratedMcaBcaMajorRecruiters = () => {
         <h2 className="text-base sm:text-xl md:text-2xl text-[#555555] font-extrabold leading-tight text-center sm:text-left">
           <span className="text-[#f37021]">450+ Industry</span>
           <br />
-          Collaboration
+          Collaborations
         </h2>
       </div>
 

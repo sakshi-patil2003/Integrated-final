@@ -18,13 +18,16 @@ function AidsBrochure() {
         </p>
       </div>
  
+     
       <div>
+        {/* Anchor tag to trigger file download */}
         <a
-          href="/brochures/aids-brochure.pdf"
-          download="AIDS-Brochure.pdf"
-          className="bg-[#41b9d0] border-2 border-[#0c3249] text-white px-6 py-3 rounded-3xl hover:bg-[#1e5f76] transition duration-300 flex items-center space-x-2"
+          // href="#"
+          // download="Brochure.pdf"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className="border border-[#41b9d0] px-6 py-3 font-semibold rounded-3xl hover:bg-white hover:text-blue-800 hover:font-semibold transition duration-300 flex items-center space-x-2"
         >
-          <FontAwesomeIcon icon={faDownload} />
+          <FontAwesomeIcon icon={faDownload}  />
           <span>Download Brochure</span>
         </a>
       </div>
@@ -45,6 +48,7 @@ function AidsBrochure() {
       </a>
     </div>
   );
+  
  
   return (
     <div
