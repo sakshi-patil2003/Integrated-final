@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import gearImage from '../../assets/images/gears.png'; // Import the gear image
+import gearImage from '../../assets/images/circuit-dots.png'; // Import the gear image
 
 const ItBrochure = () => {
   return (
@@ -10,7 +10,6 @@ const ItBrochure = () => {
       style={{
         backgroundImage: `url(${gearImage})`,
         backgroundPosition: 'left bottom, right top',
-        backgroundRepeat: 'no-repeat',
         backgroundSize: 'contain', // Ensure the image doesn't stretch or repeat
       }}
     >

@@ -50,8 +50,9 @@ function ItHero() {
             <span className='text-[#A540FF]'>Information Technology</span> at Indira College of Engineering & Management
           </p>
           <div className="hidden lg:block">
-            <p className="text-lg md:text-xl py-2 italic">
-              30 Years of Excellence in Education | 5 Specializations | 100% Placement Assistance
+          <p className=" md:text-xl py-4">
+              2 Decades of Excellence in Education | 5 Specializations | 
+               <br /> <p className="text-[#A540FF] font-bold" >100%  Guarantee Placement Assistance</p>
             </p>
             <p className="text-2xl md:text-3xl py-2">
               Transform the Digital World with <span className='text-[#A540FF] font-bold'>IT Engineering</span> at ICEM!
