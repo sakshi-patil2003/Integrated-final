@@ -80,7 +80,7 @@ function IntegratedBbaMbaPlacement() {
             <div className="text-xs sm:text-sm text-gray-600">{profile.batch}</div>
 
             {/* Company Name */}
-            <div className="text-xs sm:text-sm text-[#f37021] font-bold">
+            <div className="text-xs sm:text-sm text-[#f37021] font-bold whitespace-nowrap">
               {profile.company}
             </div>
 
