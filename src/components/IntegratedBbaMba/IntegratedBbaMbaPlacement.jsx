@@ -11,42 +11,42 @@ import nilesh from "../../../public/BBA-MBA/nilesh_Godse.avif";
 // Profile data
 const profiles = [
   {
-    name: "Mr.Tanay Dhote",
+    name: "Mr. Tanay Dhote",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 32 LPA",
     company: "Landmark Group",
     image: TanayDhote,
   },
   {
-    name: "Mr.Aditya Kale",
+    name: "Mr. Aditya Kale",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 12 LPA",
     company: "Kohler",
     image: Aditya_Kale,
   },
   {
-    name: "Mr.Aditya Pawar",
+    name: "Mr. Aditya Pawar",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 11 LPA",
     company: "Juspay",
     image: Aditya,
   },
   {
-    name: "Mr.Utkarsh Wagh",
+    name: "Mr. Utkarsh Wagh",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 10 LPA",
     company: "Patterns Technology",
     image: Utkarsh,
   },
   {
-    name: "Ms.Sakshi Ghute",
+    name: "Ms. Sakshi Ghute",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 10 LPA",
     company: "Bank Of New York Mellon",
     image: sakshi,
   },
   {
-    name: "Mr.Nilesh Godse",
+    name: "Mr. Nilesh Godse",
     batch: "(Batch : 2024-25)",
     ctc: "CTC 10 LPA",
     company: "Bank Of New York Mellon",
