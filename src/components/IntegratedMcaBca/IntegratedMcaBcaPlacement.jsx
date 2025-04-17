@@ -65,7 +65,7 @@ function IntegratedBbaMbaPlacement() {
               alt={profile.name}
               className="rounded-full w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 border-4 border-[#FCFAEE] object-cover object-top"
             />
-            <div className="text-sm sm:text-base font-semibold text-gray-800">
+            <div className="text-sm sm:text-base font-semibold text-gray-800 whitespace-nowrap">
               {profile.name}
             </div>
             <div className="text-xs sm:text-sm text-gray-600">{profile.batch}</div>
