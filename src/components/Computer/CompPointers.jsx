@@ -1,45 +1,25 @@
-// import React from 'react'
-// import img from '../../assets/images/Com-Images/Pointers.png'
-
-// const CompPointers = () => {
-//   return (
-//     <div className="flex justify-center items-center mt-4 px-4">
-//       <img
-//         src={img}
-//         alt="Pointers"
-//         className="w-full max-w-[800px] h-auto object-contain"
-//       />
-//     </div>
-//   )
-// }
-
-// export default CompPointers
 import React from "react";
-
-// Import your custom icons
-import offlineIcon from '../../assets/images/bca/logo4.avif';
-import durationIcon from '../../assets/images/bca/logo1.avif';
-import feesIcon from '../../assets/images/bca/logo2.avif';
-import recruitersIcon from '../../assets/images/bca/logo3.avif';
+// Import React Icons
+import { FaChalkboardTeacher, FaHourglassHalf , FaRupeeSign, FaUsers } from 'react-icons/fa';
 
 const data = [
   {
-    icon: offlineIcon,
+    icon: <FaChalkboardTeacher className="text-[#134C93] text-4xl" />, // Notepad icon for Program Format
     value: "Program Format",
     description: "Offline",
   },
   {
-    icon: durationIcon,
+    icon: <FaHourglassHalf  className="text-[#134C93] text-4xl" />, // Calendar icon for Duration
     value: "Duration",
     description: "4 Years",
   },
   {
-    icon: feesIcon,
+    icon: <FaRupeeSign className="text-[#134C93] text-4xl" />, // Money icon for Fees
     value: "Program Fees",
     description: "Rs.77,368.00/-",
   },
   {
-    icon: recruitersIcon,
+    icon: <FaUsers className="text-[#134C93] text-4xl" />, // Users icon for Recruiters
     value: "450+",
     description: "Total Recruiters",
   },
@@ -48,7 +28,7 @@ const data = [
 export default function CompPointers() {
   return (
     <section className="bg-[#f2f7fc] py-4 md:py-12 px-8 md:px-16 font-sans">
-      <div className=" w-auto grid md:grid-cols-2 gap-2 items-center overflow-hidden">
+      <div className="w-auto grid md:grid-cols-2 gap-2 items-center overflow-hidden">
         
         {/* Left content */}
         <div className="space-y-4">
@@ -69,11 +49,9 @@ export default function CompPointers() {
           <div className="grid grid-cols-2 gap-8 w-full md:w-[80%]">
             {data.map((item, index) => (
               <div key={index} className="flex flex-col md:flex-row items-start md:items-center space-x-4">
-                <img
-                  src={item.icon}
-                  alt={`${item.value} Icon`}
-                  className="w-8 md:w-12 h-8 md:h-12 mb-2 md:mb-0"
-                />
+                <div className="w-8 md:w-12 h-8 md:h-12 mb-2 md:mb-0">
+                  {item.icon}
+                </div>
                 <div>
                   <div className="text-lg md:text-xl font-bold text-gray-800">{item.value}</div>
                   <div className="text-sm text-gray-600 font-medium">
@@ -88,20 +66,8 @@ export default function CompPointers() {
               </div>
             ))}
           </div>
-
-          {/* Perfect circular badge
-          <div className="w-30 md:w-50 aspect-square ml-20 md:ml-16 md:ml-10 rounded-full bg-[#f7f3ef] border-4 border-[#f37021] flex flex-col items-center justify-center shadow-lg">
-            <FaAward className="text-[#f37021] text-3xl md:text-5xl mb-1" />
-            <h1 className="text-[#555555] font-bold text-center text-sm md:text-xl leading-tight">
-              <span className="text-[#f37021] font-bold">Highest CTC</span><br />
-              27 LPA
-            </h1>
-          </div> */}
-
         </div>
       </div>
     </section>
   );
 }
-
-
