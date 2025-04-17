@@ -31,7 +31,7 @@ function BcaHero() {
             <div className="text-3xl lg:text-5xl font-extrabold tracking-wide">BCA + MCA</div>
           </div>
         </div>
-        <p className="mt-6 text-lg font-semibold text-[#600000]">
+        <p className="mt-6 text-md font-semibold text-[#600000]">
          (Affiliated to SPPU, Pune University)
      </p>
      
